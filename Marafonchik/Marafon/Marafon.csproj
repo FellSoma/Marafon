@@ -109,6 +109,9 @@
     <Compile Include="SponsorRunner.xaml.cs">
       <DependentUpon>SponsorRunner.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SponsorshipOverview.xaml.cs">
+      <DependentUpon>SponsorshipOverview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SponsorStack.xaml.cs">
       <DependentUpon>SponsorStack.xaml</DependentUpon>
     </Compile>
@@ -223,6 +226,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="SponsorshipOverview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SponsorStack.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -282,6 +289,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Chekpoint.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
