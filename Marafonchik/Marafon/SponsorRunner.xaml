@@ -24,7 +24,7 @@
                     Content="Назад" 
                     Height="25"
                     Width="45"
-                    Margin="10" />
+                    Margin="10" Click="close" />
 
                 <Label 
                    Foreground="#FFFF"
@@ -238,7 +238,7 @@
 
                     <Button Content="Отмена"
                             HorizontalAlignment="Center"
-                            Margin="5"/>
+                            Margin="5" Click="close"/>
 
                 </StackPanel>
 

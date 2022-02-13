@@ -35,5 +35,10 @@ namespace Marafon
             Window g = new THX();
             g.Show();
         }
+
+        private void close(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

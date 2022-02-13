@@ -1,5 +1,6 @@
 ﻿
 
+<<<<<<< HEAD
 FD:\githubbb\fe\Marafon\Marafonchik\Marafon\AdministratorMenu.xaml;;
 FD:\githubbb\fe\Marafon\Marafonchik\Marafon\Contacts.xaml;;
 FD:\githubbb\fe\Marafon\Marafonchik\Marafon\CordinatorMenu.xaml;;
@@ -23,4 +24,32 @@ FD:\githubbb\fe\Marafon\Marafonchik\Marafon\SponsorRunner.xaml;;
 FD:\githubbb\fe\Marafon\Marafonchik\Marafon\SponsorStack.xaml;;
 FD:\githubbb\fe\Marafon\Marafonchik\Marafon\THX.xaml;;
 FD:\githubbb\fe\Marafon\Marafonchik\Marafon\ThxRunner.xaml;;
+=======
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\AdministratorMenu.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\Contacts.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\CordinatorMenu.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\EarlyRace.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\EditRunner.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\EditRunnerProfile.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\HowMuchMarafon.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\IfuRunner.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\iLogin.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\Info.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\Login.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\MainWindow.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\MapMarafon.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\MarafonInfoxaml.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\MyResault.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\MySponsor.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\RegMarafon.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\Regystry.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\RunnerControl.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\runnerMenu.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\Sponsor.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\SponsorRunner.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\SponsorStack.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\THX.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\ThxRunner.xaml;;
+FB:\GitProject\Marafan\Marafon\Marafonchik\Marafon\SponsorshipOverview.xaml;;
+>>>>>>> feac305df33dcebc2f8e254c99b5ae40153e33ef
 

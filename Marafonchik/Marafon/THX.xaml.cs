@@ -23,5 +23,10 @@ namespace Marafon
         {
             InitializeComponent();
         }
+
+        private void close(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

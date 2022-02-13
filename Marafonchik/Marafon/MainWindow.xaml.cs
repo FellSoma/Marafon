@@ -42,5 +42,11 @@ namespace Marafon
             Window g = new Info();
             g.Show();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window w = new Login();
+            w.Show();
+        }
     }
 }
