@@ -29,5 +29,10 @@ namespace Marafon
             Window g = new MapMarafon();
             g.Show();
         }
+
+        private void close(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

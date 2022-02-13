@@ -35,5 +35,10 @@ namespace Marafon
             w.Show();
             Close();
         }
+
+        private void close(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

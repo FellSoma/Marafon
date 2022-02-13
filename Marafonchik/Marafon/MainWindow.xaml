@@ -18,6 +18,6 @@
         <Button Content="Я хочу стать бегуном" Margin="297,178,284,193" RenderTransformOrigin="0.178,0.385" Click="IfuRunner"/>
         <Button Content="Я хочу стать спонсором бегуна" Margin="297,244,284,127" RenderTransformOrigin="0.178,0.385" Click="sponsorRunner"/>
         <Button Click="info" Content="Я хочу узнать больше о событии" Margin="297,313,284,58" RenderTransformOrigin="0.178,0.385"/>
-        <Button Content="Login" Margin="700,340,10,50" RenderTransformOrigin="0.178,0.385"/>
+        <Button Content="Login" Margin="700,340,10,50" RenderTransformOrigin="0.178,0.385" Click="Button_Click"/>
     </Grid>
 </Window>

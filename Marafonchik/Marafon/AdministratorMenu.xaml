@@ -43,15 +43,18 @@
 
 
         <!--Нижний бордер-->
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  
+            Background="#FF3E3E3E" 
+           
+            Grid.Row="3">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
                 Text="18 дней 8 часов и 17 минут до старта морафона!"
                 Foreground="#FFC9C9C9" 
                 TextWrapping="Wrap" 
-                Margin="244,10,246,0"
-                Width="302"
+                VerticalAlignment="Center"
+                Width="350"
                 TextAlignment="Center"/>
         </Border>
         <!--Основное тело(body)-->

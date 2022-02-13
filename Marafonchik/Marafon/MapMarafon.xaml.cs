@@ -33,5 +33,10 @@ namespace Marafon
         {
             menu.Visibility =  Visibility.Collapsed;
         }
+
+        private void close(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

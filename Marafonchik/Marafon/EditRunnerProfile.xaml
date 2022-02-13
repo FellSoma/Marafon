@@ -33,7 +33,7 @@
         <ComboBox HorizontalAlignment="Left" Margin="117,273,0,0" VerticalAlignment="Top" Width="120"/>
         <Label Content="Редактирование профиля" HorizontalAlignment="Left" Margin="31,74,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="18"/>
         <Button Content="Сохранить" HorizontalAlignment="Left" Margin="187,368,0,0" VerticalAlignment="Top" Width="88" FontFamily="Arial" Height="23" Background="#FFF2F2F2"/>
-        <Button Content="Отмена" HorizontalAlignment="Left" Margin="300,368,0,0" VerticalAlignment="Top" Width="59" FontFamily="Arial" Height="23" Background="#FFF2F2F2"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="300,368,0,0" VerticalAlignment="Top" Width="59" FontFamily="Arial" Height="23" Background="#FFF2F2F2" Click="Button_Click"/>
         <Rectangle Fill="#FF525252" HorizontalAlignment="Left" Height="58" Stroke="#FF525252" VerticalAlignment="Top" Width="577"/>
         <Rectangle Fill="#FF525252" HorizontalAlignment="Left" Height="24" Stroke="#FF525252" VerticalAlignment="Top" Width="577" Margin="0,406,0,0"/>
         <TextBlock HorizontalAlignment="Left" Margin="99,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="284" Foreground="White" FontSize="22" FontFamily="Arial"><Run Text="MARATHON SKILLS"/><Run Text=" 2022"/></TextBlock>

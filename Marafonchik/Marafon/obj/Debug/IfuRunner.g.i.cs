@@ -72,7 +72,7 @@ namespace Marafon {
             {
             case 1:
             
-            #line 21 "..\..\IfuRunner.xaml"
+            #line 28 "..\..\IfuRunner.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.ILogin);
             
             #line default
@@ -80,7 +80,7 @@ namespace Marafon {
             return;
             case 2:
             
-            #line 28 "..\..\IfuRunner.xaml"
+            #line 35 "..\..\IfuRunner.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Registry);
             
             #line default
