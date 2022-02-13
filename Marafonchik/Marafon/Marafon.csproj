@@ -55,8 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddANewUser.xaml.cs">
+      <DependentUpon>AddANewUser.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AdministratorMenu.xaml.cs">
       <DependentUpon>AdministratorMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BMIСalculator.xaml.cs">
+      <DependentUpon>BMIСalculator.xaml</DependentUpon>
     </Compile>
     <Compile Include="Contacts.xaml.cs">
       <DependentUpon>Contacts.xaml</DependentUpon>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="EarlyRace.xaml.cs">
       <DependentUpon>EarlyRace.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EditAUser.xaml.cs">
+      <DependentUpon>EditAUser.xaml</DependentUpon>
     </Compile>
     <Compile Include="EditRunner.xaml.cs">
       <DependentUpon>EditRunner.xaml</DependentUpon>
@@ -94,6 +103,9 @@
     <Compile Include="Regystry.xaml.cs">
       <DependentUpon>Regystry.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RunnerManagement.xaml.cs">
+      <DependentUpon>RunnerManagement.xaml</DependentUpon>
+    </Compile>
     <Compile Include="runnerMenu.xaml.cs">
       <DependentUpon>runnerMenu.xaml</DependentUpon>
     </Compile>
@@ -112,7 +124,15 @@
     <Compile Include="ThxRunner.xaml.cs">
       <DependentUpon>ThxRunner.xaml</DependentUpon>
     </Compile>
+    <Page Include="AddANewUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AdministratorMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BMIСalculator.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -125,6 +145,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EarlyRace.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditAUser.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -197,6 +221,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="RunnerManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="runnerMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -262,6 +290,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Panel.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BMI2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BMI3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BMI.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
