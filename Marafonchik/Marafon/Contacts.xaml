@@ -1,0 +1,84 @@
+﻿<Window x:Class="Marafon.Contacts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Marafon"
+        mc:Ignorable="d"
+        Title="Contacts"    Height="250" 
+        Width="430"
+        WindowStyle="ToolWindow">
+
+    <Grid HorizontalAlignment="Center" Margin="0,0,2,0" Width="420">
+        <StackPanel Orientation="Vertical">
+            
+           <TextBlock
+               TextAlignment="Center" 
+                TextWrapping="Wrap"
+                FontSize="20"              
+                Text="Контакты"
+                Margin="0,20,0,20"
+                Grid.Row="3"/>
+            
+            <TextBlock
+               TextAlignment="Left" 
+                TextWrapping="Wrap"
+                FontSize="14"              
+                Text="Для получения дополнительной информации пожалуйста свяжитесь с координаторами"
+                Margin="10,10,0,20"
+                />
+
+            <StackPanel Orientation="Horizontal">
+
+                <StackPanel Orientation="Vertical">
+
+                    <TextBlock
+                       TextAlignment="Left" 
+                       TextWrapping="Wrap"
+                       FontSize="14"    
+                       FontWeight="Bold"
+                       Text="Телефон:"
+                       Margin="10,0,0,0"
+                       Grid.Row="3" 
+                        Foreground="#FF494242"/>
+                    
+                    <TextBlock
+                        Foreground="#FF494242"
+                        TextAlignment="Left" 
+                        TextWrapping="Wrap"
+                        FontWeight="Bold"
+                        FontSize="14"              
+                        Text="Email:"
+                        Margin="10,10,0,0"
+                        Grid.Row="3"
+                        FontStyle="Italic"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical">
+
+                    <TextBlock
+                       TextAlignment="Left" 
+                       TextWrapping="Wrap"
+                       FontSize="14"    
+                      
+                       Text="+55 11 9988 7766"
+                       Margin="10,0,0,0"
+                       Grid.Row="3" 
+                        />
+
+                    <TextBlock
+                        
+                        TextAlignment="Left"                                               
+                        FontSize="14"              
+                        Text="coordinators@marathonskills.org"
+                        Margin="0,10,0,0"
+                        Grid.Row="3" />
+
+                </StackPanel>
+            </StackPanel>
+            
+        </StackPanel>
+      
+    </Grid>
+</Window>

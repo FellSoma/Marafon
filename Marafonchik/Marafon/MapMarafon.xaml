@@ -1,0 +1,142 @@
+﻿<Window x:Class="Marafon.MapMarafon"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Marafon"
+        mc:Ignorable="d"
+        Title="MapMarafon"   Width="800" 
+        Height="500"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid  HorizontalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="59*"/>
+            <RowDefinition Height="324*"/>
+            <RowDefinition Height="36*"/>
+        </Grid.RowDefinitions>
+
+        <!--Вверхний бордер-->
+        <Border  Background="#FF3E3E3E">
+            <StackPanel Orientation="Horizontal">
+                <Button
+                    Content="Назад" 
+                    Height="25"
+                    Width="45"
+                    Margin="10" />
+
+                <Label 
+                   Foreground="#FFFF"
+                   FontWeight="Bold" 
+                   FontSize="25"
+                   VerticalContentAlignment="Center"
+                    Margin="20,0,0,0"
+                   Content="Интерактивная карта MARATHON SKILLS 2016" />
+            </StackPanel>
+        </Border>
+
+
+        <!--Нижний бордер-->
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+            <TextBlock
+                FontSize="12"
+                HorizontalAlignment="Center" 
+                Text="18 дней 8 часов и 17 минут до старта морафона!"
+                Foreground="#FFC9C9C9" 
+                TextWrapping="Wrap" 
+                Margin="244,10,246,0"
+                Width="302"
+                TextAlignment="Center"/>
+        </Border>
+        <!--Основное тело(body)-->
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="6*"/>
+                <RowDefinition Height="33*"/>
+                <RowDefinition Height="214*"/>
+                <RowDefinition Height="110*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="116*"/>
+                <ColumnDefinition Width="17*"/>
+                <ColumnDefinition Width="151*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="12*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <StackPanel Orientation="Horizontal" Grid.ColumnSpan="5" Grid.RowSpan="4">
+
+                <Image Source="Images/Map.png"
+                       Margin="30,0,0,0"/>
+
+
+
+            </StackPanel>
+            <Button
+                Content=""
+                Background="Transparent"
+                BorderBrush="Transparent"
+                Grid.Column="1"
+                Click="checkPoint" Grid.Row="1"/>
+
+            <Border   BorderThickness="2" BorderBrush="#FF8D8D8D"
+                      Background="#FFD6D6D6"
+                      Grid.Row="2"
+                      Grid.Column="3"
+                      x:Name="menu"
+                      Visibility="Collapsed">
+
+                <StackPanel Orientation="Vertical">
+
+                    <Button 
+                        HorizontalAlignment="Right"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Top"
+                        BorderBrush="Transparent"
+                        Background="Transparent"
+                        Click="checkPointMenu"
+                        Margin="0,5,3,0"
+                        Content="x"
+                        FontWeight="Bold"
+                        FontSize="14"
+                        Height="21"
+                        Width="18"
+                        x:Name="closeBT"
+                        Foreground="#FFF10000" />
+
+                    <TextBlock
+                        Text="Checkpoint 1"
+                        FontWeight="Bold"
+                        Foreground="#FF555555"
+                        FontSize="15"
+                        HorizontalAlignment="Left"
+                        Margin="30,0,0,0"/>
+
+                    <TextBlock
+                        Text="Особенности:"
+                        
+                        Foreground="#FF6A6A6A"
+                        FontSize="13"
+                        HorizontalAlignment="Left"
+                        Margin="30,10,0,0"/>
+                   
+                    <TextBlock
+                        Text="- Стенд питья &#xA;- Энергетические &#xA;  батончики&#xA;- Туалет&#xA;- Медецинский&#xA;  пункт  "
+                        
+                        Foreground="#FF6A6A6A"
+                        FontSize="13"                       
+                        HorizontalAlignment="Left"
+                        Margin="30,10,0,0"/>
+
+
+                </StackPanel>
+
+
+
+            </Border>
+
+        </Grid>
+
+    </Grid>
+</Window>

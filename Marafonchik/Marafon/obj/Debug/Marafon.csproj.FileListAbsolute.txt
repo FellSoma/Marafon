@@ -1,0 +1,206 @@
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\bin\Debug\Marafon.exe.config
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\bin\Debug\Marafon.exe
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\bin\Debug\Marafon.pdb
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Marafon.csproj.AssemblyReference.cache
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\MainWindow.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\App.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Marafon_MarkupCompile.cache
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Marafon_MarkupCompile.lref
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\MainWindow.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Marafon.g.resources
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Marafon.Properties.Resources.resources
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Marafon.csproj.GenerateResource.cache
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Marafon.csproj.CoreCompileInputs.cache
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Marafon.exe
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Marafon.pdb
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\IfuRunner.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\IfuRunner.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\iLogin.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\iLogin.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Login.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Login.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\bin\Debug\Marafon.exe.config
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\bin\Debug\Marafon.exe
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\bin\Debug\Marafon.pdb
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Marafon.csprojAssemblyReference.cache
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\IfuRunner.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\iLogin.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Login.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\MainWindow.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\App.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Marafon_MarkupCompile.cache
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Marafon_MarkupCompile.lref
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\IfuRunner.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\iLogin.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Login.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\MainWindow.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Marafon.g.resources
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Marafon.Properties.Resources.resources
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Marafon.csproj.GenerateResource.cache
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Marafon.csproj.CoreCompileInputs.cache
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Marafon.exe
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Marafon.pdb
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Regystry.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Regystry.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\RegMarafon.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Sponsor.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\RegMarafon.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Sponsor.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\SponsorRunner.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\SponsorRunner.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\THX.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\THX.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\ThxRunner.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\ThxRunner.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Contacts.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\RegMarafon.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Regystry.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\runnerMenu.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Sponsor.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\SponsorRunner.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\THX.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\ThxRunner.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\RegMarafon.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Regystry.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\runnerMenu.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Sponsor.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\SponsorRunner.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\THX.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\ThxRunner.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Contacts.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Info.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\MarafonInfoxaml.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\Info.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafon\Marafon\obj\Debug\MarafonInfoxaml.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Contacts.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Info.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\MapMarafon.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\MarafonInfoxaml.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\runnerMenu.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Contacts.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\Info.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\MapMarafon.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\MarafonInfoxaml.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\runnerMenu.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\SponsorStack.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\SponsorStack.baml
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\EarlyRace.g.cs
+C:\Users\nfeli\OneDrive\Рабочий стол\Marafon\Marafon\obj\Debug\EarlyRace.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Marafon.csproj.AssemblyReference.cache
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Contacts.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\EarlyRace.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\HowMuchMarafon.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\IfuRunner.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\iLogin.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Info.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Login.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\MainWindow.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\MapMarafon.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\MarafonInfoxaml.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\RegMarafon.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Regystry.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\runnerMenu.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Sponsor.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\SponsorRunner.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\SponsorStack.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\THX.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\ThxRunner.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\App.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Marafon_MarkupCompile.cache
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Marafon_MarkupCompile.lref
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Marafon.exe
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Marafon.pdb
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\bin\Debug\Marafon.exe.config
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\bin\Debug\Marafon.exe
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\bin\Debug\Marafon.pdb
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Contacts.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\EarlyRace.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\IfuRunner.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\iLogin.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Info.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Login.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\MainWindow.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\MapMarafon.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\MarafonInfoxaml.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\RegMarafon.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Regystry.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\runnerMenu.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Sponsor.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\SponsorRunner.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\SponsorStack.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\THX.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\ThxRunner.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\HowMuchMarafon.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Marafon.g.resources
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Marafon.Properties.Resources.resources
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Marafon.csproj.GenerateResource.cache
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\Marafon.csproj.CoreCompileInputs.cache
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\EditRunner.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\EditRunner.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\AdministratorMenu.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\CordinatorMenu.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\MyResault.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\MySponsor.g.cs
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\AdministratorMenu.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\CordinatorMenu.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\MyResault.baml
+H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\MySponsor.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\bin\Debug\Marafon.exe.config
+I:\OurGits\Marafon\Marafonchik\Marafon\bin\Debug\Marafon.exe
+I:\OurGits\Marafon\Marafonchik\Marafon\bin\Debug\Marafon.pdb
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.csprojAssemblyReference.cache
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\AdministratorMenu.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Contacts.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\CordinatorMenu.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\EarlyRace.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\EditRunner.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\HowMuchMarafon.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\IfuRunner.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\iLogin.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Info.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Login.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\MainWindow.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\MapMarafon.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\MarafonInfoxaml.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\MyResault.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\MySponsor.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\RegMarafon.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Regystry.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\runnerMenu.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Sponsor.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\SponsorRunner.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\SponsorStack.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\THX.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\ThxRunner.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\App.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Marafon_MarkupCompile.cache
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Marafon_MarkupCompile.lref
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\AdministratorMenu.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Contacts.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\CordinatorMenu.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\EarlyRace.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\EditRunner.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\HowMuchMarafon.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\IfuRunner.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\iLogin.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Info.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Login.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\MainWindow.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\MapMarafon.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\MarafonInfoxaml.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\MyResault.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\MySponsor.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\RegMarafon.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Regystry.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\runnerMenu.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Sponsor.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\SponsorRunner.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\SponsorStack.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\THX.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\ThxRunner.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.g.resources
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.Properties.Resources.resources
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.csproj.GenerateResource.cache
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.csproj.CoreCompileInputs.cache
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.exe
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.pdb
