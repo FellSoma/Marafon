@@ -10,14 +10,7 @@
     <Grid>
         <Border  Background="#FF3E3E3E" Margin="0,0,0,360"/>
         <Border Background="#FF3E3E3E" Margin="0,383,0,0" HorizontalAlignment="Center">
-            <TextBlock FontSize="12"
-                       HorizontalAlignment="Center" 
-                       Text="18 дней 8 часов и 17 минут до старта морафона!" 
-                       Foreground="#FFC9C9C9" 
-                       TextWrapping="Wrap"
-                       Margin="244,10,246,0" 
-                       Width="302" 
-                       TextAlignment="Center"/>
+            <TextBlock FontSize="12" HorizontalAlignment="Center" Text="18 дней 8 часов и 17 минут до старта морафона!" Foreground="#FFC9C9C9" TextWrapping="Wrap" Margin="244,10,246,0" Width="302" TextAlignment="Center"/>
         </Border>
         <StackPanel 
             Orientation="Vertical"
@@ -40,7 +33,7 @@
                 Width="200"/>
         </StackPanel>
         <Button Content="Назад" Margin="10,10,720,382" RenderTransformOrigin="0.178,0.385"/>
-        <Button Content="Login" Margin="700,340,10,50" RenderTransformOrigin="0.178,0.385" Click="login"/>
+        <Button Content="Login" Margin="700,340,10,50" RenderTransformOrigin="0.178,0.385"/>
         <Label Foreground="#FFFF" FontWeight="Bold" FontSize="25" Margin="93,5,365,360" RenderTransformOrigin="0.297,2.869" Content="MARATHON SKILLS 2016" />
     </Grid>
    

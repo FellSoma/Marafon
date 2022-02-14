@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
         Title="Marathon Skills 2016 – AddANewUser" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="0,0,-8,-21">
         <Border  Background="#FF3E3E3E" Margin="0,0,0,379"/>
         <Border Background="#FF3E3E3E" Margin="0,400,0,0" HorizontalAlignment="Center" Width="824">
             <TextBlock FontSize="12" HorizontalAlignment="Center" Text="18 дней 8 часов и 17 минут до старта морафона!" Foreground="#FFC9C9C9" TextWrapping="Wrap" Margin="244,10,246,0" Width="302" TextAlignment="Center"/>

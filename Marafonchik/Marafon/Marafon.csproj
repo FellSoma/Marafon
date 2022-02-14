@@ -79,9 +79,6 @@
     <Compile Include="EditRunner.xaml.cs">
       <DependentUpon>EditRunner.xaml</DependentUpon>
     </Compile>
-    <Compile Include="EditRunnerProfile.xaml.cs">
-      <DependentUpon>EditRunnerProfile.xaml</DependentUpon>
-    </Compile>
     <Compile Include="HowMuchMarafon.xaml.cs">
       <DependentUpon>HowMuchMarafon.xaml</DependentUpon>
     </Compile>
@@ -106,13 +103,8 @@
     <Compile Include="Regystry.xaml.cs">
       <DependentUpon>Regystry.xaml</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="RunnerManagement.xaml.cs">
       <DependentUpon>RunnerManagement.xaml</DependentUpon>
-=======
-    <Compile Include="RunnerControl.xaml.cs">
-      <DependentUpon>RunnerControl.xaml</DependentUpon>
->>>>>>> feac305df33dcebc2f8e254c99b5ae40153e33ef
     </Compile>
     <Compile Include="runnerMenu.xaml.cs">
       <DependentUpon>runnerMenu.xaml</DependentUpon>
@@ -122,9 +114,6 @@
     </Compile>
     <Compile Include="SponsorRunner.xaml.cs">
       <DependentUpon>SponsorRunner.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SponsorshipOverview.xaml.cs">
-      <DependentUpon>SponsorshipOverview.xaml</DependentUpon>
     </Compile>
     <Compile Include="SponsorStack.xaml.cs">
       <DependentUpon>SponsorStack.xaml</DependentUpon>
@@ -164,10 +153,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EditRunner.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="EditRunnerProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -236,11 +221,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-<<<<<<< HEAD
     <Page Include="RunnerManagement.xaml">
-=======
-    <Page Include="RunnerControl.xaml">
->>>>>>> feac305df33dcebc2f8e254c99b5ae40153e33ef
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -253,10 +234,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SponsorRunner.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="SponsorshipOverview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -315,7 +292,6 @@
     <Resource Include="Images\Panel.PNG" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Resource Include="Images\BMI2.PNG" />
   </ItemGroup>
   <ItemGroup>
@@ -323,15 +299,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\BMI.PNG" />
-=======
-    <Resource Include="Images\Photo.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Chekpoint.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Logo.png" />
->>>>>>> feac305df33dcebc2f8e254c99b5ae40153e33ef
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

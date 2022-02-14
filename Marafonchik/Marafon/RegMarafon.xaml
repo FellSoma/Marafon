@@ -23,7 +23,7 @@
                     Content="Назад" 
                     Height="25"
                     Width="45"
-                    Margin="10" Click="close" />
+                    Margin="10" />
 
                 <Label 
                    Foreground="#FFFF"

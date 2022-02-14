@@ -28,12 +28,5 @@ namespace Marafon
         {
             Close();
         }
-
-        private void SpomsorshipOverviewBtm_Click(object sender, RoutedEventArgs e)
-        {
-            SponsorshipOverview sponsorshipOverview = new SponsorshipOverview();
-            sponsorshipOverview.Show();
-            Close();
-        }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
-        Title="Marathon Skills 2016 – RunnerManagement" Height="450" Width="800">
+        Title="Marathon Skills 2016 – RunnerManagement" Height="466.282" Width="809.159">
     <Grid>
         <Rectangle Fill="#FF525252" HorizontalAlignment="Center" Height="58" Stroke="#FF525252" VerticalAlignment="Top" Width="800"/>
         <Rectangle Fill="#FF525252" HorizontalAlignment="Center" Height="24" Stroke="#FF525252" VerticalAlignment="Top" Width="800" Margin="0,411,0,0"/>

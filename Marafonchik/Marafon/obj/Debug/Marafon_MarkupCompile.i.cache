@@ -4,30 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
 D:\githubbb\fe\Marafon\Marafonchik\Marafon\obj\Debug\
-=======
-B:\GitProject\Marafan\Marafon\Marafonchik\Marafon\obj\Debug\
->>>>>>> feac305df33dcebc2f8e254c99b5ae40153e33ef
 Marafon
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 D:\githubbb\fe\Marafon\Marafonchik\Marafon\App.xaml
 271591145806
 
 32-1764188238
 13-1310406943
 AddANewUser.xaml;AdministratorMenu.xaml;BMIСalculator.xaml;Contacts.xaml;CordinatorMenu.xaml;EarlyRace.xaml;EditAUser.xaml;EditRunner.xaml;HowMuchMarafon.xaml;IfuRunner.xaml;iLogin.xaml;Info.xaml;Login.xaml;MainWindow.xaml;MapMarafon.xaml;MarafonInfoxaml.xaml;MyResault.xaml;MySponsor.xaml;RegMarafon.xaml;Regystry.xaml;RunnerManagement.xaml;runnerMenu.xaml;Sponsor.xaml;SponsorRunner.xaml;SponsorStack.xaml;THX.xaml;ThxRunner.xaml;
-=======
-B:\GitProject\Marafan\Marafon\Marafonchik\Marafon\App.xaml
-26-1016177612
 
-31958829404
-13-1505183044
-AdministratorMenu.xaml;Contacts.xaml;CordinatorMenu.xaml;EarlyRace.xaml;EditRunner.xaml;EditRunnerProfile.xaml;HowMuchMarafon.xaml;IfuRunner.xaml;iLogin.xaml;Info.xaml;Login.xaml;MainWindow.xaml;MapMarafon.xaml;MarafonInfoxaml.xaml;MyResault.xaml;MySponsor.xaml;RegMarafon.xaml;Regystry.xaml;RunnerControl.xaml;runnerMenu.xaml;Sponsor.xaml;SponsorRunner.xaml;SponsorshipOverview.xaml;SponsorStack.xaml;THX.xaml;ThxRunner.xaml;
->>>>>>> feac305df33dcebc2f8e254c99b5ae40153e33ef
-
-False
+True
 

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
-        Title="Marathon Skills 2016 – BMIСalculator" Height="450" Width="800">
+        Title="Marathon Skills 2016 – BMIСalculator" Height="463.877" Width="810.903">
     <Grid>
         <Border  Background="#FF3E3E3E" Margin="0,0,0,379"/>
         <Border Background="#FF3E3E3E" Margin="0,400,0,0" HorizontalAlignment="Center" Width="824">

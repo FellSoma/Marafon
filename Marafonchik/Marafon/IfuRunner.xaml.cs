@@ -36,11 +36,5 @@ namespace Marafon
             Window g = new Regystry();
             g.Show();
         }
-
-        private void login(object sender, RoutedEventArgs e)
-        {
-            Window w = new Login();
-            w.Show();
-        }
     }
 }

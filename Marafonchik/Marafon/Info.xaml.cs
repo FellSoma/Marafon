@@ -52,10 +52,5 @@ namespace Marafon
             Window w = new HowMuchMarafon();
             w.Show(); 
         }
-
-        private void close(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
     }
 }

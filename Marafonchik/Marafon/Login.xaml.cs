@@ -29,10 +29,5 @@ namespace Marafon
             Window g = new iLogin();
             g.Show();
         }
-
-        private void close(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
     }
 }
