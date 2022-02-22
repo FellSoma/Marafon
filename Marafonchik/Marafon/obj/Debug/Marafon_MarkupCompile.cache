@@ -5,7 +5,11 @@ winexe
 C#
 .cs
 <<<<<<< HEAD
+<<<<<<< HEAD
 B:\GitProject\Марафон3\Marafon\Marafonchik\Marafon\obj\Debug\
+=======
+C:\Users\vlad2\Desktop\Marafonchik\Marafon\obj\Debug\
+>>>>>>> 39ab321969fb8fc2fc5a207ef526e82c207215e4
 =======
 C:\Users\vlad2\Desktop\Marafonchik\Marafon\obj\Debug\
 >>>>>>> 39ab321969fb8fc2fc5a207ef526e82c207215e4
@@ -14,7 +18,11 @@ none
 false
 DEBUG;TRACE
 <<<<<<< HEAD
+<<<<<<< HEAD
 B:\GitProject\Марафон3\Marafon\Marafonchik\Marafon\App.xaml
+=======
+C:\Users\vlad2\Desktop\Marafonchik\Marafon\App.xaml
+>>>>>>> 39ab321969fb8fc2fc5a207ef526e82c207215e4
 =======
 C:\Users\vlad2\Desktop\Marafonchik\Marafon\App.xaml
 >>>>>>> 39ab321969fb8fc2fc5a207ef526e82c207215e4
