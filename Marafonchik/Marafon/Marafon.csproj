@@ -82,9 +82,6 @@
     <Compile Include="HowMuchMarafon.xaml.cs">
       <DependentUpon>HowMuchMarafon.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ImportVolunteers.xaml.cs">
-      <DependentUpon>ImportVolunteers.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Info.xaml.cs">
       <DependentUpon>Info.xaml</DependentUpon>
     </Compile>
@@ -118,6 +115,9 @@
     <Compile Include="SponsorRunner.xaml.cs">
       <DependentUpon>SponsorRunner.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SponsorshipOverview.xaml.cs">
+      <DependentUpon>SponsorshipOverview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SponsorStack.xaml.cs">
       <DependentUpon>SponsorStack.xaml</DependentUpon>
     </Compile>
@@ -126,12 +126,6 @@
     </Compile>
     <Compile Include="ThxRunner.xaml.cs">
       <DependentUpon>ThxRunner.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserManagement.xaml.cs">
-      <DependentUpon>UserManagement.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="VolunteerManagement.xaml.cs">
-      <DependentUpon>VolunteerManagement.xaml</DependentUpon>
     </Compile>
     <Page Include="AddANewUser.xaml">
       <SubType>Designer</SubType>
@@ -174,10 +168,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="iLogin.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ImportVolunteers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -250,6 +240,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="SponsorshipOverview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SponsorStack.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -259,14 +253,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ThxRunner.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserManagement.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="VolunteerManagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
