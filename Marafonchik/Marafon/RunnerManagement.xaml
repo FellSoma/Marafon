@@ -230,8 +230,7 @@
                         BorderThickness="1" Margin="0,0,-50,20" Grid.RowSpan="2">
 
                 <TextBlock                           
-                            Text="Оплата подтверждена
-"                           
+                            Text="Оплата подтверждена"                           
                             HorizontalAlignment="Center"
                             VerticalAlignment="Center"
                             FontSize="14"
