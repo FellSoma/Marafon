@@ -1,5 +1,6 @@
 ﻿
 
+<<<<<<< Updated upstream
 FI:\OurGits\Marafon\Marafonchik\Marafon\AddANewUser.xaml;;
 FI:\OurGits\Marafon\Marafonchik\Marafon\AdministratorMenu.xaml;;
 FI:\OurGits\Marafon\Marafonchik\Marafon\BMIСalculator.xaml;;
@@ -27,4 +28,63 @@ FI:\OurGits\Marafon\Marafonchik\Marafon\SponsorRunner.xaml;;
 FI:\OurGits\Marafon\Marafonchik\Marafon\SponsorStack.xaml;;
 FI:\OurGits\Marafon\Marafonchik\Marafon\THX.xaml;;
 FI:\OurGits\Marafon\Marafonchik\Marafon\ThxRunner.xaml;;
+=======
+<<<<<<< Updated upstream
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\AddANewUser.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\AdministratorMenu.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\BMIСalculator.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\Contacts.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\CordinatorMenu.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\EarlyRace.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\EditAUser.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\EditRunner.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\HowMuchMarafon.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\IfuRunner.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\iLogin.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\Info.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\Login.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\MainWindow.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\MapMarafon.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\MarafonInfoxaml.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\MyResault.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\MySponsor.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\RegMarafon.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\Regystry.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\RunnerManagement.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\runnerMenu.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\Sponsor.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\SponsorRunner.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\SponsorStack.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\THX.xaml;;
+FB:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\ThxRunner.xaml;;
+=======
+FD:\mar\Marafon\Marafonchik\Marafon\AddANewUser.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\AdministratorMenu.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\BMIСalculator.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\Contacts.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\CordinatorMenu.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\EarlyRace.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\EditAUser.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\EditRunner.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\HowMuchMarafon.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\IfuRunner.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\iLogin.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\Info.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\Login.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\MainWindow.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\MapMarafon.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\MarafonInfoxaml.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\MyResault.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\MySponsor.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\RegMarafon.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\Regystry.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\RunnerManagement.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\runnerMenu.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\Sponsor.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\SponsorRunner.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\SponsorStack.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\THX.xaml;;
+FD:\mar\Marafon\Marafonchik\Marafon\ThxRunner.xaml;;
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 

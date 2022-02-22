@@ -4,17 +4,30 @@
 winexe
 C#
 .cs
+<<<<<<< Updated upstream
 D:\githubbb\fe\Marafon\Marafonchik\Marafon\obj\Debug\
+=======
+D:\mar\Marafon\Marafonchik\Marafon\obj\Debug\
+>>>>>>> Stashed changes
 Marafon
 none
 false
 DEBUG;TRACE
+<<<<<<< Updated upstream
 D:\githubbb\fe\Marafon\Marafonchik\Marafon\App.xaml
 271591145806
 
 32-1764188238
 13-1310406943
 AddANewUser.xaml;AdministratorMenu.xaml;BMIСalculator.xaml;Contacts.xaml;CordinatorMenu.xaml;EarlyRace.xaml;EditAUser.xaml;EditRunner.xaml;HowMuchMarafon.xaml;IfuRunner.xaml;iLogin.xaml;Info.xaml;Login.xaml;MainWindow.xaml;MapMarafon.xaml;MarafonInfoxaml.xaml;MyResault.xaml;MySponsor.xaml;RegMarafon.xaml;Regystry.xaml;RunnerManagement.xaml;runnerMenu.xaml;Sponsor.xaml;SponsorRunner.xaml;SponsorStack.xaml;THX.xaml;ThxRunner.xaml;
+=======
+D:\mar\Marafon\Marafonchik\Marafon\App.xaml
+30-1702480605
 
-True
+35-649761606
+13-1505183044
+AddANewUser.xaml;AdministratorMenu.xaml;BMIСalculator.xaml;Contacts.xaml;CordinatorMenu.xaml;EarlyRace.xaml;EditAUser.xaml;EditRunner.xaml;HowMuchMarafon.xaml;IfuRunner.xaml;iLogin.xaml;ImportVolunteers.xaml;Info.xaml;Login.xaml;MainWindow.xaml;MapMarafon.xaml;MarafonInfoxaml.xaml;MyResault.xaml;MySponsor.xaml;RegMarafon.xaml;Regystry.xaml;RunnerManagement.xaml;runnerMenu.xaml;Sponsor.xaml;SponsorRunner.xaml;SponsorStack.xaml;THX.xaml;ThxRunner.xaml;UserManagement.xaml;VolunteerManagement.xaml;
+>>>>>>> Stashed changes
+
+False
 

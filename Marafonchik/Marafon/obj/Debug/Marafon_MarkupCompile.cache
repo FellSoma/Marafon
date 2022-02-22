@@ -4,12 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< Updated upstream
 I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\
+=======
+<<<<<<< Updated upstream
+B:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\obj\Debug\
+=======
+D:\mar\Marafon\Marafonchik\Marafon\obj\Debug\
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 Marafon
 none
 false
 DEBUG;TRACE
+<<<<<<< Updated upstream
 I:\OurGits\Marafon\Marafonchik\Marafon\App.xaml
+=======
+<<<<<<< Updated upstream
+B:\GitProject\Марафон2\Marafon\Marafonchik\Marafon\App.xaml
+=======
+D:\mar\Marafon\Marafonchik\Marafon\App.xaml
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 27-466840428
 
 32-637967489
