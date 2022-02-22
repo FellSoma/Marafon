@@ -107,7 +107,6 @@
                             Height="60"
                             Width="180"
                             Margin="7"
-                            Click="BMR"
                             Content="Bmr калькулятор"/>
 
                     </StackPanel>

@@ -6,11 +6,9 @@
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
         Title="AdministratorMenu"
-               Height="500"
-        Width="800" 
-        WindowStyle="None" 
+        Height="450" Width="712"
         WindowStartupLocation="CenterScreen">
-    <Grid Loaded="Grid_Loaded" HorizontalAlignment="Center">
+    <Grid  HorizontalAlignment="Center">
         <Grid.RowDefinitions>
             <RowDefinition Height="59*"/>
             <RowDefinition Height="324*"/>
@@ -21,7 +19,6 @@
         <Border  Background="#FF3E3E3E">
             <StackPanel Orientation="Horizontal">
                 <Button
-                    Click="close_Click"
                     Content="Назад" 
                     Height="25"
                     Width="45"
@@ -33,6 +30,14 @@
                    FontSize="25"
                    VerticalContentAlignment="Center"
                    Content="MARATHON SKILLS 2016" />
+
+                <Button
+                    Content="Logout" 
+                    Height="25"
+                    Width="45"
+                    Margin="360,0,0,0" 
+                    HorizontalAlignment="Right"
+                    />
             </StackPanel>
         </Border>
 
@@ -93,7 +98,6 @@
                             Height="60"
                             Width="180"
                             Margin="7"
-                            Click="inventory_Click"
                             Content="Инвентарь"/>
 
                     </StackPanel>

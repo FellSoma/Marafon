@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
-        Title="Marathon Skills 2016 – Sponsorship overview " WindowStartupLocation="CenterScreen" Height="490.8" Width="800">
+        Title="SponsorshipOverview" Height="490.8" Width="800">
     <Grid>
         <Border  Background="#FF3E3E3E" Margin="0,0,1.6,390.6">
             <StackPanel Orientation="Horizontal">
@@ -14,6 +14,7 @@
                     Height="25"
                     Width="45"
                     Margin="10" Click="BackClick" />
+
                 <Label 
                     Foreground="#FFFF"
                     FontWeight="Bold" 
@@ -48,7 +49,8 @@
         <Button Content="Сортировка" HorizontalAlignment="Left" Margin="491,124,0,0" VerticalAlignment="Top" Width="115" FontFamily="Arial" Height="28" Background="#FFF2F2F2"/>
         <DataGrid x:Name="phonesGrid" HorizontalAlignment="Left" Height="213" Margin="132,212,0,0" VerticalAlignment="Top" Width="523" Loaded="grid_Loaded"
                 RowHeight="30" ColumnWidth="*"
-                Background="LightGray" RowBackground="Gray" AlternatingRowBackground="DarkGray">
+                Background="LightGray" RowBackground="Gray" AlternatingRowBackground="DarkGray"
+            >
             <DataGrid.Columns>
                 <DataGridTemplateColumn Header="Логотип">
                     <DataGridTemplateColumn.CellTemplate>

@@ -1,0 +1,54 @@
+﻿<Window x:Class="Marafon.ImportVolunteers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Marafon"
+        mc:Ignorable="d"
+        Title="ImportVolunteers" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FF525252" HorizontalAlignment="Center" Height="24" Stroke="#FF525252" VerticalAlignment="Top" Width="794" Margin="0,396,-0.4,0"/>
+        <TextBlock  Margin="223,396,154.6,-7" Foreground="#FFD1D1D1" FontSize="14" FontFamily="Arial"  Text="18 дней 8 часов и17 минут до старта марафона"/>
+        <TextBlock          
+            Margin="298,63,0,326"
+            Text="Загрузка волонтеров"                           
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            FontSize="20"   
+            Foreground="#FF5E5E61" 
+            Height="31" 
+            Width="204" />
+        <Rectangle Fill="#FF525252" HorizontalAlignment="Center" Height="58" Stroke="#FF525252" VerticalAlignment="Top" Width="792" Margin="0,0,1.6,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="99,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="284" Foreground="White" FontSize="22" FontFamily="Arial"><Run Text="MARATHON SKILLS"/><Run Text=" 2022"/></TextBlock>
+        <Button x:Name="btBack" Content="Назад"  Margin="10,5,713.2,377.2" Background="#FFCCCCCC" FontSize="14" FontFamily="Arial" Click="btBack_Click"/>
+        <Button Content="Logout"  Margin="671,5,9.6,377" Background="#FFCCCCCC" FontSize="14" FontFamily="Arial" Click="Button_Click"/>
+        <TextBlock          
+            Margin="177,103,0,286"
+            Text="CSV файл волонтеров:"                           
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            FontSize="20"   
+            Foreground="#FF5E5E61" 
+            Height="31" 
+            Width="209" />
+        <TextBlock Text="volunteer_list.csv" Foreground="DarkGray" FontSize="20" Margin="390,103,243.6,286"/>
+        <TextBlock Text="поле1: описание поля" Foreground="#FF5E5E61" FontSize="18" Margin="295,223,312.6,170"/>
+        <TextBlock Text="поле2: описание поля" Foreground="#FF5E5E61" FontSize="18" Margin="296,250,311.6,143"/>
+        <TextBlock Text="поле3: описание поля" Foreground="#FF5E5E61" FontSize="18" Margin="296,277,311.6,116"/>
+        <TextBlock Text="поле4: описание поля" Foreground="#FF5E5E61" FontSize="18" Margin="296,304,311.6,89"/>
+        <TextBlock Text="поле5: описание поля" Foreground="#FF5E5E61" FontSize="18" Margin="296,331,311.6,62"/>
+        <TextBlock Text="поле6: описание поля" Foreground="#FF5E5E61" FontSize="18" Margin="296,358,311.6,35"/>
+        <Button Content="Просмотр" Margin="556,103,160.6,286"/>
+        <Button Content="Загрузка" Margin="292,151,424.6,238" Click="Button_Click_1"/>
+        <Button Content="Отмена" Margin="391,151,325.6,238" Click="Button_Click_1"/>
+        <TextBlock          
+            Margin="194,187,0,202"
+            Text="CSV файл должен иметь следующие поля:"                           
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            FontSize="20"   
+            Foreground="#FF5E5E61" 
+            Height="31" 
+            Width="392" />
+    </Grid>
+</Window>

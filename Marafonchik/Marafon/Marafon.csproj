@@ -55,11 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddANewUser.xaml.cs">
+      <DependentUpon>AddANewUser.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AdministratorMenu.xaml.cs">
       <DependentUpon>AdministratorMenu.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BMRcalculator.xaml.cs">
-      <DependentUpon>BMRcalculator.xaml</DependentUpon>
+    <Compile Include="BMIСalculator.xaml.cs">
+      <DependentUpon>BMIСalculator.xaml</DependentUpon>
     </Compile>
     <Compile Include="Contacts.xaml.cs">
       <DependentUpon>Contacts.xaml</DependentUpon>
@@ -70,20 +73,20 @@
     <Compile Include="EarlyRace.xaml.cs">
       <DependentUpon>EarlyRace.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EditAUser.xaml.cs">
+      <DependentUpon>EditAUser.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EditRunner.xaml.cs">
       <DependentUpon>EditRunner.xaml</DependentUpon>
     </Compile>
     <Compile Include="HowMuchMarafon.xaml.cs">
       <DependentUpon>HowMuchMarafon.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ImportVolunteers.xaml.cs">
+      <DependentUpon>ImportVolunteers.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Info.xaml.cs">
       <DependentUpon>Info.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="inventar.xaml.cs">
-      <DependentUpon>inventar.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="LvlActivity.xaml.cs">
-      <DependentUpon>LvlActivity.xaml</DependentUpon>
     </Compile>
     <Compile Include="MapMarafon.xaml.cs">
       <DependentUpon>MapMarafon.xaml</DependentUpon>
@@ -97,17 +100,14 @@
     <Compile Include="MySponsor.xaml.cs">
       <DependentUpon>MySponsor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Otchet.xaml.cs">
-      <DependentUpon>Otchet.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="postinvent.xaml.cs">
-      <DependentUpon>postinvent.xaml</DependentUpon>
-    </Compile>
     <Compile Include="RegMarafon.xaml.cs">
       <DependentUpon>RegMarafon.xaml</DependentUpon>
     </Compile>
     <Compile Include="Regystry.xaml.cs">
       <DependentUpon>Regystry.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunnerManagement.xaml.cs">
+      <DependentUpon>RunnerManagement.xaml</DependentUpon>
     </Compile>
     <Compile Include="runnerMenu.xaml.cs">
       <DependentUpon>runnerMenu.xaml</DependentUpon>
@@ -127,11 +127,21 @@
     <Compile Include="ThxRunner.xaml.cs">
       <DependentUpon>ThxRunner.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserManagement.xaml.cs">
+      <DependentUpon>UserManagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VolunteerManagement.xaml.cs">
+      <DependentUpon>VolunteerManagement.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AddANewUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AdministratorMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="BMRcalculator.xaml">
+    <Page Include="BMIСalculator.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -144,6 +154,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EarlyRace.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditAUser.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -163,19 +177,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ImportVolunteers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Info.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="inventar.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Login.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="LvlActivity.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -216,19 +226,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Otchet.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="postinvent.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="RegMarafon.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Regystry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RunnerManagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -253,6 +259,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ThxRunner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VolunteerManagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -299,11 +313,13 @@
     <Resource Include="Images\Panel.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\net.png" />
+    <Resource Include="Images\BMI2.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\men.png" />
-    <Resource Include="Images\women.png" />
+    <Resource Include="Images\BMI3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BMI.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

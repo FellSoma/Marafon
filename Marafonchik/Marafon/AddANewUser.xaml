@@ -1,0 +1,59 @@
+﻿<Window x:Class="Marafon.AddANewUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Marafon"
+        mc:Ignorable="d"
+        Title="Marathon Skills 2016 – AddANewUser" Height="450" Width="800">
+    <Grid Margin="0,0,-8,-21">
+        <Border  Background="#FF3E3E3E" Margin="0,0,0,379"/>
+        <Border Background="#FF3E3E3E" Margin="0,400,0,0" HorizontalAlignment="Center" Width="824">
+            <TextBlock FontSize="12" HorizontalAlignment="Center" Text="18 дней 8 часов и 17 минут до старта морафона!" Foreground="#FFC9C9C9" TextWrapping="Wrap" Margin="244,10,246,0" Width="302" TextAlignment="Center"/>
+        </Border>
+        <StackPanel
+            
+            Orientation="Horizontal"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top" Margin="0,338,0,0" Width="204">
+
+
+            <Button Click="ILogin"
+                    FontStyle="Italic"
+                    Content="Сохранить"
+                     Margin="6"
+                    Height="28"
+                    Width="89"/>
+
+            <Button Click="Registry"
+                FontStyle="Italic" 
+                Content="Отмена"
+                Margin="6"
+                Height="28"
+                Width="89"/>
+        </StackPanel>
+
+        <Button Content="Назад" Margin="10,10,720,397" RenderTransformOrigin="0.178,0.385"/>
+        <Button Content="Login" Margin="700,10,10,397" RenderTransformOrigin="0.178,0.385"/>
+
+        <Label Foreground="#FFFF" FontWeight="Bold" FontSize="25" Margin="93,5,365,360" RenderTransformOrigin="0.297,2.869" Content="MARATHON SKILLS 2016" />
+        <Label Foreground="#FF636363" FontWeight="Bold" FontSize="25" Margin="189,55,230,335" RenderTransformOrigin="0.297,2.869" Content="Добавление нового пользователя" />
+
+        <TextBlock Foreground="#FF464545" Text="Email:" Margin="72,141,687,269" FontSize="14"/>
+        <TextBlock Foreground="#FF464545" Text="имя:" Margin="80,170,688,241" FontSize="14"/>
+        <TextBlock Foreground="#FF464545" Text="Фамилия:" Margin="45,198,692,217" FontSize="14"/>
+        <TextBlock Foreground="#FF464545" Text="Роль:" Margin="72,224,683,184" FontSize="14"/>
+
+        <TextBox x:Name="d1" Margin="118,170,529,246" />
+        <TextBox x:Name="d2" Margin="117,198,529,217" />
+        <ComboBox Name="d3" Margin="117,223,529,193" />
+
+        <TextBlock Foreground="#FF464545" Text="Пароль:" Margin="510,152,230,255" FontSize="14"/>
+        <TextBlock Foreground="#FF464545" Text="повторите пароль:" Margin="441,178,230,230" FontSize="14"/>
+        <TextBox x:Name="d4" Margin="570,147,77,268" />
+        <TextBox x:Name="d6" Margin="118,137,529,277" />
+        <TextBox x:Name="d5" Margin="570,174,76,241" />
+        <TextBlock Foreground="#FF464545"  Text="Новый пароль пароль" FontSize="16" Margin="555,112,77,292"/>
+    </Grid>
+
+</Window>

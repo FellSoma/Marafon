@@ -38,6 +38,12 @@ namespace Marafon
         private void grid_Loaded(object sender, RoutedEventArgs e)
         {
             Image finalImage = new Image();
+            //finalImage.Width = 80;
+            //BitmapImage logo = new BitmapImage();
+            //logo.BeginInit();
+            //logo.UriSource = new Uri("pack://application:,,,/AssemblyName;component/Resources/foto/logo.png");
+            //logo.EndInit();
+            //finalImage.Source = logo;
             List<T> result = new List<T>(6)
             {
                 new T( "2h 26m 27s", "First Runner"),
@@ -52,13 +58,16 @@ namespace Marafon
 
         private void closeClick(object sender, RoutedEventArgs e)
         {
-
+            Window g = new MainWindow();
+            g.Show();
+            Close();
         }
 
         private void BackClick(object sender, RoutedEventArgs e)
         {
-
+            Window g = new CordinatorMenu();
+            g.Show();
+            Close();
         }
     }
 }
-

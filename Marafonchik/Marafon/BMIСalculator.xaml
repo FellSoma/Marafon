@@ -1,0 +1,56 @@
+﻿<Window x:Class="Marafon.BMIСalculator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Marafon"
+        mc:Ignorable="d"
+        Title="Marathon Skills 2016 – BMIСalculator" Height="463.877" Width="810.903">
+    <Grid>
+        <Border  Background="#FF3E3E3E" Margin="0,0,0,379"/>
+        <Border Background="#FF3E3E3E" Margin="0,400,0,0" HorizontalAlignment="Center" Width="824">
+            <TextBlock FontSize="12" HorizontalAlignment="Center" Text="18 дней 8 часов и 17 минут до старта морафона!" Foreground="#FFC9C9C9" TextWrapping="Wrap" Margin="244,10,246,0" Width="302" TextAlignment="Center"/>
+        </Border>
+        <StackPanel
+            
+            Orientation="Horizontal"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" Margin="48,348,0,0" Width="202">
+
+
+            <Button Click="ILogin"
+                    FontStyle="Italic"
+                    Content="Рассичитать"
+                     Margin="6"
+                    Height="28"
+                    Width="89"/>
+
+            <Button Click="Registry"
+                FontStyle="Italic" 
+                Content="Отмена"
+                Margin="6"
+                Height="28"
+                Width="89"/>
+        </StackPanel>
+
+        <Button Content="Назад" Margin="10,10,720,397" RenderTransformOrigin="0.178,0.385"/>
+        <Button Content="Login" Margin="700,10,10,397" RenderTransformOrigin="0.178,0.385"/>
+
+        <Label Foreground="#FFFF" FontWeight="Bold" FontSize="25" Margin="93,5,365,360" RenderTransformOrigin="0.297,2.869" Content="MARATHON SKILLS 2016" />
+        <Label Foreground="#FF636363" FontWeight="Bold" FontSize="25" Margin="264,60,290,330" RenderTransformOrigin="0.297,2.869" Content="BMI калькулятор" />
+
+        <TextBlock Foreground="#FF464545" Text="Рост:" Margin="94,284,666,126" FontSize="14"/>
+        <TextBlock Foreground="#FF464545" Text="Вес:" Margin="102,313,666,98" FontSize="14"/>
+        <TextBlock Foreground="#FF464545" Text="КГ" Margin="196,313,572,98" FontSize="14"/>
+        <TextBlock Foreground="#FF464545" Text="СМ" Margin="191,284,577,127" FontSize="14"/>
+
+        <TextBox x:Name="d1" Margin="140,313,614,103" />
+        <TextBox x:Name="d6" Margin="140,284,614,134" />
+        <TextBlock Foreground="#FF464545" TextWrapping="Wrap" Text="Информация о том что такое BMI и 
+как калькулятор работает" FontSize="16" Margin="45,104,473,279"/>
+
+        <Image Source="Images/BMI.PNG" Margin="45,139,505,156"/>
+        <Image Source="Images/BMI2.PNG" Margin="527,130,120,155"/>
+        <Image Source="Images/BMI3.PNG" Margin="417,263,10,32"/>
+    </Grid>
+</Window>
