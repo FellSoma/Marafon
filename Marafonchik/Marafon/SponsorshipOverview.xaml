@@ -5,61 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
-        Title="SponsorshipOverview" Height="490.8" Width="800">
+        Title="SponsorshipOverview" Height="450" Width="800">
     <Grid>
-        <Border  Background="#FF3E3E3E" Margin="0,0,1.6,390.6">
-            <StackPanel Orientation="Horizontal">
-                <Button
-                    Content="Назад" 
-                    Height="25"
-                    Width="45"
-                    Margin="10" Click="BackClick" />
-
-                <Label 
-                    Foreground="#FFFF"
-                    FontWeight="Bold" 
-                    FontSize="25"
-                    VerticalContentAlignment="Center"
-                    Content="MARATHON SKILLS 2016" />
-
-                <Button
-                    Content="Logout" 
-                    Height="25"
-                    Width="45"
-                    Margin="360,0,0,0" 
-                    HorizontalAlignment="Right" Click="closeClick"
-                    />
-            </StackPanel>
-        </Border>
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Margin="0,430,1.6,-0.6" Width="792">
-            <TextBlock
-                FontSize="12"
-                HorizontalAlignment="Center" 
-                Text="18 дней 8 часов и 17 минут до старта марафона!"
-                Foreground="#FFC9C9C9" 
-                TextWrapping="Wrap" 
-                Margin="244,10,246,0"
-                Width="302"
-                TextAlignment="Center"/>
-        </Border>
-        <TextBlock HorizontalAlignment="Left" Margin="242,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="274" Foreground="#FF656565" FontSize="22" FontFamily="Arial" TextAlignment="Center"><Run Text="Регистрация на марафон"/><LineBreak/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="183,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="390" Foreground="#FF656565" FontSize="22" FontFamily="Arial" TextAlignment="Center"><Run Text="Благотворительные организации: 10"/><LineBreak/><Run Text="Всего спонсорских взносов: $94,450"/><LineBreak/><Run/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="150,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="109" Foreground="#FF656565" FontSize="14" FontFamily="Arial" TextAlignment="Left"><Run Text="Отсортировать:"/><LineBreak/></TextBlock>
-        <ComboBox HorizontalAlignment="Left" Margin="264,122,0,0" VerticalAlignment="Top" Width="196"/>
-        <Button Content="Сортировка" HorizontalAlignment="Left" Margin="491,124,0,0" VerticalAlignment="Top" Width="115" FontFamily="Arial" Height="28" Background="#FFF2F2F2"/>
-        <DataGrid x:Name="phonesGrid" HorizontalAlignment="Left" Height="213" Margin="132,212,0,0" VerticalAlignment="Top" Width="523" Loaded="grid_Loaded"
-                RowHeight="30" ColumnWidth="*"
-                Background="LightGray" RowBackground="Gray" AlternatingRowBackground="DarkGray"
-            >
-            <DataGrid.Columns>
-                <DataGridTemplateColumn Header="Логотип">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="Logo.png"/>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
-            </DataGrid.Columns>
-        </DataGrid>
+        
     </Grid>
 </Window>
