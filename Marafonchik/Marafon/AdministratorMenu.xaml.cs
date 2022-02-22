@@ -23,5 +23,22 @@ namespace Marafon
         {
             InitializeComponent();
         }
+
+        private void inventory_Click(object sender, RoutedEventArgs e)
+        {
+            inventar inv = new inventar();
+            inv.Show();
+            Close();
+        }
+
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void close_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

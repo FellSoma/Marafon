@@ -52,5 +52,11 @@ namespace Marafon
             Window w = new HowMuchMarafon();
             w.Show(); 
         }
+
+        private void BMR(object sender, RoutedEventArgs e)
+        {
+            BMRcalculator bMRcalculator = new BMRcalculator();
+            bMRcalculator.Show();
+        }
     }
 }
