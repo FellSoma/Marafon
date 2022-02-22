@@ -4,33 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-<<<<<<< HEAD
-B:\GitProject\Марафон3\Marafon\Marafonchik\Marafon\obj\Debug\
-=======
-C:\Users\vlad2\Desktop\Marafonchik\Marafon\obj\Debug\
->>>>>>> 39ab321969fb8fc2fc5a207ef526e82c207215e4
-=======
-C:\Users\vlad2\Desktop\Marafonchik\Marafon\obj\Debug\
->>>>>>> 39ab321969fb8fc2fc5a207ef526e82c207215e4
+C:\Users\denli\Desktop\marafon\Marafon\obj\Debug\
 Marafon
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
-<<<<<<< HEAD
-B:\GitProject\Марафон3\Marafon\Marafonchik\Marafon\App.xaml
-=======
-C:\Users\vlad2\Desktop\Marafonchik\Marafon\App.xaml
->>>>>>> 39ab321969fb8fc2fc5a207ef526e82c207215e4
-=======
-C:\Users\vlad2\Desktop\Marafonchik\Marafon\App.xaml
->>>>>>> 39ab321969fb8fc2fc5a207ef526e82c207215e4
-27-466840428
+C:\Users\denli\Desktop\marafon\Marafon\App.xaml
+28-1828717227
 
-32-637967489
+32-447885409
 13-1505183044
-AddANewUser.xaml;AdministratorMenu.xaml;BMIСalculator.xaml;Contacts.xaml;CordinatorMenu.xaml;EarlyRace.xaml;EditAUser.xaml;EditRunner.xaml;HowMuchMarafon.xaml;IfuRunner.xaml;iLogin.xaml;Info.xaml;Login.xaml;MainWindow.xaml;MapMarafon.xaml;MarafonInfoxaml.xaml;MyResault.xaml;MySponsor.xaml;RegMarafon.xaml;Regystry.xaml;RunnerManagement.xaml;runnerMenu.xaml;Sponsor.xaml;SponsorRunner.xaml;SponsorStack.xaml;THX.xaml;ThxRunner.xaml;
+AdministratorMenu.xaml;BMRcalculator.xaml;Contacts.xaml;CordinatorMenu.xaml;EarlyRace.xaml;EditRunner.xaml;HowMuchMarafon.xaml;IfuRunner.xaml;iLogin.xaml;Info.xaml;inventar.xaml;Login.xaml;LvlActivity.xaml;MainWindow.xaml;MapMarafon.xaml;MarafonInfoxaml.xaml;MyResault.xaml;MySponsor.xaml;Otchet.xaml;postinvent.xaml;RegMarafon.xaml;Regystry.xaml;runnerMenu.xaml;Sponsor.xaml;SponsorRunner.xaml;SponsorStack.xaml;THX.xaml;ThxRunner.xaml;
 
-True
+False
 

@@ -42,5 +42,12 @@ namespace Marafon
             Window g = new Info();
             g.Show();
         }
+
+        private void login(object sender, RoutedEventArgs e)
+        {
+            Login lg = new Login();
+            lg.Show();
+            Close();
+        }
     }
 }
