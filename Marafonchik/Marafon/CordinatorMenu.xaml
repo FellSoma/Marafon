@@ -6,23 +6,25 @@
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
         Title="CordinatorMenu" Height="450" Width="712" WindowStartupLocation="CenterScreen">
-    <Grid>
-        <Rectangle Fill="#515151" HorizontalAlignment="Left" Height="45" Stroke="Black" VerticalAlignment="Top" Width="792"/>
-        <Button x:Name="CloseButton" Click="CloseButton_Click"  Content="Назад" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="51"/>
-        <TextBlock x:Name="Marat" Margin="111,10,0,0" HorizontalAlignment="Left" Text="MARATHON SKILLS 2016"  VerticalAlignment="Top" Foreground="White" FontSize="22" FontWeight="Bold" FontFamily="Arial"/>
-        <StatusBar Background="#515151" Foreground="#FFFF" Margin="0,382,0,0" HorizontalAlignment="Center" Width="712">
-            <StatusBarItem HorizontalAlignment="Center" >
-                <TextBlock Text="18 дней 8 часов и 17 минут до старта сарафона" />
-            </StatusBarItem>
-        </StatusBar>
-        <Button HorizontalAlignment="Left" Margin="67,116,0,0" VerticalAlignment="Top" Width="217" Height="63">
-            <TextBlock TextAlignment="Center" FontSize="16"><Run Text="Бегуны"/></TextBlock>
-        </Button>
-        <TextBlock Text="Редактирование профиля" Margin="253,66,0,0" Foreground="#FF595959" FontSize="18" RenderTransformOrigin="0.562,0.507" HorizontalAlignment="Left" Width="212" Height="31" VerticalAlignment="Top"/>
-        <Button HorizontalAlignment="Left" Margin="441,116,0,0" VerticalAlignment="Top" Width="217" Height="63">
-            <TextBlock TextAlignment="Center" FontSize="16"><Run Text="Спонсоры"/></TextBlock>
-        </Button>
-        <Button x:Name="Logout" Click="CloseButton_Click"  Content="Logout" HorizontalAlignment="Left" Margin="624,10,0,0" VerticalAlignment="Top" Width="51"/>
+    <Viewbox Stretch="Fill">
+        <Grid Height="434.04" Width="712">
+            <Rectangle Fill="#515151" HorizontalAlignment="Left" Height="45" Stroke="Black" VerticalAlignment="Top" Width="792"/>
+            <Button x:Name="CloseButton" Click="CloseButton_Click"  Content="Назад" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="51"/>
+            <TextBlock x:Name="Marat" Margin="111,10,0,0" HorizontalAlignment="Left" Text="MARATHON SKILLS 2016"  VerticalAlignment="Top" Foreground="White" FontSize="22" FontWeight="Bold" FontFamily="Arial"/>
+            <StatusBar Background="#515151" Foreground="#FFFF" Margin="0,382,0,0" HorizontalAlignment="Center" Width="712">
+                <StatusBarItem HorizontalAlignment="Center" >
+                    <TextBlock Text="18 дней 8 часов и 17 минут до старта сарафона" />
+                </StatusBarItem>
+            </StatusBar>
+            <Button HorizontalAlignment="Left" Margin="67,116,0,0" VerticalAlignment="Top" Width="217" Height="63">
+                <TextBlock TextAlignment="Center" FontSize="16"><Run Text="Бегуны"/></TextBlock>
+            </Button>
+            <TextBlock Text="Редактирование профиля" Margin="253,66,0,0" Foreground="#FF595959" FontSize="18" RenderTransformOrigin="0.562,0.507" HorizontalAlignment="Left" Width="212" Height="31" VerticalAlignment="Top"/>
+            <Button HorizontalAlignment="Left" Margin="441,116,0,0" VerticalAlignment="Top" Width="217" Height="63">
+                <TextBlock TextAlignment="Center" FontSize="16"><Run Text="Спонсоры"/></TextBlock>
+            </Button>
+            <Button x:Name="Logout" Click="CloseButton_Click"  Content="Logout" HorizontalAlignment="Left" Margin="624,10,0,0" VerticalAlignment="Top" Width="51"/>
 
-    </Grid>
+        </Grid>
+    </Viewbox>
 </Window>

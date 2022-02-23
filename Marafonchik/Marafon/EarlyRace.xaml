@@ -42,7 +42,7 @@
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
-                Text="18 дней 8 часов и 17 минут до старта морафона!"
+                Text="18 дней 8 часов и 17 минут до старта мaрафона!"
                 Foreground="#FFC9C9C9" 
                 TextWrapping="Wrap" 
                 Margin="244,10,246,0"

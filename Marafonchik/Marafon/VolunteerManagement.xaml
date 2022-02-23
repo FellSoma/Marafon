@@ -6,532 +6,534 @@
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
         Title="VolunteerManagement" Height="436" Width="797">
-    <Grid>
-        <TextBlock          
-                            Margin="275,63,0,326"
-                            Text="Управление волонтерами"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="20"   
-                            Foreground="#FF5E5E61" 
-                            Height="31" 
-                            Width="252" />
-        <TextBlock          
-                            Margin="240,232,0,157"
-                            Text="Всего волонтеров:"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="20"   
-                            Foreground="#FF5E5E61" 
-                            Height="31" 
-                            Width="218" 
-                            FontWeight="Bold"/>
-        <TextBlock          
-                            Margin="463,232,0,157"
-                            Text="123"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="20"   
-                            Foreground="#FF5E5E61" 
-                            Height="31" 
-                            Width="38" />
-        <TextBlock          
-                            Margin="46,98,0,291"
-                            Text="Сортировка и фильтрация"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="20"   
-                            Foreground="#FF5E5E61" 
-                            Height="31" 
-                            Width="248" />
-        <TextBlock          
-                            Margin="27,133,0,256"
-                            Text="Сортировать по:"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="20"   
-                            Foreground="#FF5E5E61" 
-                            Height="31" 
-                            Width="154" />
-        <TextBlock          
-                            Margin="588,108,0,281"
-                            Text="Загрузка"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="20"   
-                            Foreground="#FF5E5E61" 
-                            Height="31" 
-                            Width="85" />
-        <ComboBox Margin="186,134,478.6,255"/>
-        <Button Content="Загрузка волонтеров" Margin="567,144,92.6,246" Click="Button_Click_1"/>
-        <Button Content="Обновить" Margin="186,170,530.6,220"/>
+    <Viewbox Stretch="Fill">
+        <Grid Height="420.04" Width="797">
+            <TextBlock          
+                Margin="275,63,0,0"
+                Text="Управление волонтерами"                           
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                FontSize="20"   
+                Foreground="#FF5E5E61" 
+                Height="31" 
+                Width="252" />
+            <TextBlock          
+                Margin="240,232,0,0"
+                Text="Всего волонтеров:"                           
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                FontSize="20"   
+                Foreground="#FF5E5E61" 
+                Height="31" 
+                Width="218" 
+                FontWeight="Bold"/>
+            <TextBlock          
+                Margin="463,232,0,0"
+                Text="123"                           
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                FontSize="20"   
+                Foreground="#FF5E5E61" 
+                Height="31" 
+                Width="38" />
+            <TextBlock          
+                Margin="46,98,0,0"
+                Text="Сортировка и фильтрация"                           
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                FontSize="20"   
+                Foreground="#FF5E5E61" 
+                Height="31" 
+                Width="248" />
+            <TextBlock          
+                Margin="27,133,0,0"
+                Text="Сортировать по:"                           
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                FontSize="20"   
+                Foreground="#FF5E5E61" 
+                Height="31" 
+                Width="154" />
+            <TextBlock          
+                Margin="588,108,0,0"
+                Text="Загрузка"                           
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                FontSize="20"   
+                Foreground="#FF5E5E61" 
+                Height="31" 
+                Width="85" />
+            <ComboBox Margin="186,134,479,255"/>
+            <Button Content="Загрузка волонтеров" Margin="567,144,93,246" Click="Button_Click_1"/>
+            <Button Content="Обновить" Margin="186,170,531,220"/>
 
-        <Grid Margin="103,266,179.6,9">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="60"/>
-                <ColumnDefinition Width="120" />
+            <Grid Margin="103,266,180,9">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="120" />
 
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="100"/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <!-- первая сторка-->
-            <Border 
-                        Grid.Row="0"
-                        Grid.Column="0"
-                        Background="#FF8F8F8F"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <!--Восьмая строка-->
+                <!-- первая сторка-->
+                <Border 
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Background="#FF8F8F8F"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Фамилия"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="12"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="0"
-                        Grid.Column="1"
-                        Background="#FF8F8F8F"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Фамилия"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="12"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Background="#FF8F8F8F"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Имя"                           
-                            HorizontalAlignment="Left"
-                            Margin="4,0,0,0"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="0"
-                        Grid.Column="2"
-                        Background="#FF8F8F8F"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Имя"                           
+                        HorizontalAlignment="Left"
+                        Margin="4,0,0,0"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    Background="#FF8F8F8F"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Страна"                           
-                            HorizontalAlignment="Left"
-                            Margin="4,0,0,0"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="0"
-                        Grid.Column="3"
-                        Background="#FF8F8F8F"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1" Margin="0,0,-50,20" Grid.RowSpan="2">
+                    <TextBlock                           
+                        Text="Страна"                           
+                        HorizontalAlignment="Left"
+                        Margin="4,0,0,0"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="0"
+                    Grid.Column="3"
+                    Background="#FF8F8F8F"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1" Margin="0,0,-50,20" Grid.RowSpan="2">
 
-                <TextBlock                           
-                            Text="Пол"                           
-                            HorizontalAlignment="Left"
-                            Margin="57.2,-0.8,0,-3"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <!-- Вторая сторка-->
-            <Border 
-                        Grid.Row="1"
-                        Grid.Column="0"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Пол"                           
+                        HorizontalAlignment="Left"
+                        Margin="57.2,-0.8,0,-3"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <!-- Вторая сторка-->
+                <Border 
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="First"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="1"
-                        Grid.Column="1"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="First"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Volunteer"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            Margin="10,0,0,0"
+                    <TextBlock                           
+                        Text="Volunteer"                           
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Margin="10,0,0,0"
                            
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="1"
-                        Grid.Column="2"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock          
-                            Margin="81.2,-0.8,0,-1.4"
-                            Text="Germany"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="14"
+                    <TextBlock          
+                        Margin="81.2,-0.8,0,-1.4"
+                        Text="Germany"                           
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
                             
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border
-                        Grid.Column="2"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1" Margin="234,16,-50,2" Grid.RowSpan="2" Grid.ColumnSpan="2">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border
+                    Grid.Column="2"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1" Margin="234,16,-50,2" Grid.RowSpan="2" Grid.ColumnSpan="2">
 
-                <TextBlock                           
-                            Text="Мужской"
-                            TextAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
+                    <TextBlock                           
+                        Text="Мужской"
+                        TextAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
                           
-                            Foreground="#FF5E5E61" Margin="2,0,4,0" Height="16" />
-            </Border>
-            <!-- Третья сторка-->
-            <Border 
-                        Grid.Row="2"
-                        Grid.Column="0"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                        Foreground="#FF5E5E61" Margin="2,0,4,0" Height="16" />
+                </Border>
+                <!-- Третья сторка-->
+                <Border 
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Second "                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="2"
-                        Grid.Column="1"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Second "                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Volunteer"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            Margin="10,0,0,0"
+                    <TextBlock                           
+                        Text="Volunteer"                           
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Margin="10,0,0,0"
                           
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="2"
-                        Grid.Column="2"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock          
-                            Margin="93.2,-0.8,0,-1.4"
-                            Text="Brazil "                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="14"
+                    <TextBlock          
+                        Margin="93.2,-0.8,0,-1.4"
+                        Text="Brazil "                           
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
                         
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="2"
-                        Grid.Column="3"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1" Margin="0,0,-50,20" Grid.RowSpan="2">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1" Margin="0,0,-50,20" Grid.RowSpan="2">
 
-                <TextBlock                           
-                            Text="Женский"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
+                    <TextBlock                           
+                        Text="Женский"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
                           
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <!--Четвёртая строка-->
-            <Border 
-                        Grid.Row="3"
-                        Grid.Column="0"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <!--Четвёртая строка-->
+                <Border 
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Third "                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="3"
-                        Grid.Column="1"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Third "                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Volunteer"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            Margin="10,0,0,0"
+                    <TextBlock                           
+                        Text="Volunteer"                           
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Margin="10,0,0,0"
                             
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="3"
-                        Grid.Column="2"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock          
-                            Margin="71.2,-0.8,0,-1.4"
-                            Text="New Zealand"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="14"
+                    <TextBlock          
+                        Margin="71.2,-0.8,0,-1.4"
+                        Text="New Zealand"                           
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
                           
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="3"
-                        Grid.Column="3"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1" Margin="0,0,-50,19" Grid.RowSpan="2">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="3"
+                    Grid.Column="3"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1" Margin="0,0,-50,19" Grid.RowSpan="2">
 
-                <TextBlock                           
-                            Text="Мужской"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
+                    <TextBlock                           
+                        Text="Мужской"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
                             
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <!--Пятоя строчка-->
-            <Border 
-                        Grid.Row="4"
-                        Grid.Column="0"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <!--Пятоя строчка-->
+                <Border 
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Fourth "                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="4"
-                        Grid.Column="1"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Fourth "                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Volunteer"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            Margin="10,0,0,0"
+                    <TextBlock                           
+                        Text="Volunteer"                           
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Margin="10,0,0,0"
                            
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="4"
-                        Grid.Column="2"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="4"
+                    Grid.Column="2"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock          
-                            Margin="93.2,-0.8,0,-1.4"
-                            Text="Brazil "                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="14"
+                    <TextBlock          
+                        Margin="93.2,-0.8,0,-1.4"
+                        Text="Brazil "                           
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
                             
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="4"
-                        Grid.Column="3"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1" Margin="0,0,-50,0">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="4"
+                    Grid.Column="3"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1" Margin="0,0,-50,0">
 
-                <TextBlock                           
-                            Text="Мужской"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
+                    <TextBlock                           
+                        Text="Мужской"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
                            
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <!--Шестая строка-->
-            <Border 
-                        Grid.Row="5"
-                        Grid.Column="0"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <!--Шестая строка-->
+                <Border 
+                    Grid.Row="5"
+                    Grid.Column="0"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Fifth"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="5"
-                        Grid.Column="1"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Fifth"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="5"
+                    Grid.Column="1"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Volunteer"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            Margin="10,0,0,0"
+                    <TextBlock                           
+                        Text="Volunteer"                           
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Margin="10,0,0,0"
                           
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="5"
-                        Grid.Column="2"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="5"
+                    Grid.Column="2"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock          
-                            Margin="93.2,-0.8,0,-1.4"
-                            Text="Brazil "                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="14"
+                    <TextBlock          
+                        Margin="93.2,-0.8,0,-1.4"
+                        Text="Brazil "                           
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
                          
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="4"
-                        Grid.Column="3"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1" Margin="0,19,-50,0" Grid.RowSpan="2">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="4"
+                    Grid.Column="3"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1" Margin="0,19,-50,0" Grid.RowSpan="2">
 
-                <TextBlock                           
-                            Text="Женский"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
+                    <TextBlock                           
+                        Text="Женский"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
                          
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <!--Седмая строка-->
-            <Border 
-                        Grid.Row="6"
-                        Grid.Column="0"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <!--Седмая строка-->
+                <Border 
+                    Grid.Row="6"
+                    Grid.Column="0"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Sixth "                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="6"
-                        Grid.Column="1"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Sixth "                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="6"
+                    Grid.Column="1"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Volunteer"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            Margin="10,0,0,0"
+                    <TextBlock                           
+                        Text="Volunteer"                           
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Margin="10,0,0,0"
                            
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="6"
-                        Grid.Column="2"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="6"
+                    Grid.Column="2"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock          
-                            Margin="92.2,-0.8,0,-1.4"
-                            Text="Japan"                           
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            FontSize="14"
+                    <TextBlock          
+                        Margin="92.2,-0.8,0,-1.4"
+                        Text="Japan"                           
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
                            
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <Border 
-                        Grid.Row="5"
-                        Grid.Column="3"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1" Margin="0,20,-50,0" Grid.RowSpan="2">
+                        Foreground="#FF5E5E61" />
+                </Border>
+                <Border 
+                    Grid.Row="5"
+                    Grid.Column="3"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1" Margin="0,20,-50,0" Grid.RowSpan="2">
 
-                <TextBlock                           
-                            Text="Женский"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
+                    <TextBlock                           
+                        Text="Женский"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
                             
-                            Foreground="#FF5E5E61" />
-            </Border>
-            <!--Восьмая строка-->
+                        Foreground="#FF5E5E61" />
+                </Border>
+            </Grid>
+            <Rectangle Fill="#FF525252" HorizontalAlignment="Center" Height="58" Stroke="#FF525252" VerticalAlignment="Top" Width="798"/>
+            <TextBlock HorizontalAlignment="Left" Margin="99,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="284" Foreground="White" FontSize="22" FontFamily="Arial"><Run Text="MARATHON SKILLS"/><Run Text=" 2022"/></TextBlock>
+            <Button x:Name="btBack" Content="Назад"  Margin="10,5,713,377" Background="#FFCCCCCC" FontSize="14" FontFamily="Arial" Click="btBack_Click"/>
+            <Button Content="Logout"  Margin="671,5,10,377" Background="#FFCCCCCC" FontSize="14" FontFamily="Arial" Click="Button_Click"/>
+            <Rectangle Fill="#FF525252" HorizontalAlignment="Center" Height="24" Stroke="#FF525252" VerticalAlignment="Top" Width="797" Margin="0,396,0,0"/>
+            <TextBlock  Margin="223,396,155,-7" Foreground="#FFD1D1D1" FontSize="14" FontFamily="Arial"  Text="18 дней 8 часов и17 минут до старта марафона"/>
         </Grid>
-        <Rectangle Fill="#FF525252" HorizontalAlignment="Center" Height="58" Stroke="#FF525252" VerticalAlignment="Top" Width="798"/>
-        <TextBlock HorizontalAlignment="Left" Margin="99,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="284" Foreground="White" FontSize="22" FontFamily="Arial"><Run Text="MARATHON SKILLS"/><Run Text=" 2022"/></TextBlock>
-        <Button x:Name="btBack" Content="Назад"  Margin="10,5,713.2,377.2" Background="#FFCCCCCC" FontSize="14" FontFamily="Arial" Click="btBack_Click"/>
-        <Button Content="Logout"  Margin="671,5,9.6,377" Background="#FFCCCCCC" FontSize="14" FontFamily="Arial" Click="Button_Click"/>
-        <Rectangle Fill="#FF525252" HorizontalAlignment="Center" Height="24" Stroke="#FF525252" VerticalAlignment="Top" Width="797" Margin="0,396,0,0"/>
-        <TextBlock  Margin="223,396,154.6,-7" Foreground="#FFD1D1D1" FontSize="14" FontFamily="Arial"  Text="18 дней 8 часов и17 минут до старта марафона"/>
-    </Grid>
+    </Viewbox>
 </Window>

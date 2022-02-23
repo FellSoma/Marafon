@@ -10,245 +10,242 @@
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen">
 
-    <Grid Margin="0,0,-7,2" >
-        <Grid.RowDefinitions>
-            <RowDefinition Height="59*"/>
-            <RowDefinition Height="324*"/>
-            <RowDefinition Height="36*"/>
-        </Grid.RowDefinitions>
+    <Viewbox Margin="0,0,-7,2" Stretch="Fill">
+        <Grid Height="464.04" Width="790">
 
-        <Border  Background="#FF3E3E3E">
-            <StackPanel Orientation="Horizontal">
-                <Button
-                    Content="Назад" 
-                    Height="25"
-                    Width="45"
-                    Click="Button_Click_1"
-                    Margin="10" />
+            <Border  Background="#FF3E3E3E" Margin="0,0,0,399">
+                <StackPanel Orientation="Horizontal">
+                    <Button
+                        Content="Назад" 
+                        Height="25"
+                        Width="45"
+                        Click="Button_Click_1"
+                        Margin="10" />
 
-                <Label 
-                   Foreground="#FFFF"
-                   FontWeight="Bold" 
-                   FontSize="25"
-                   VerticalContentAlignment="Center"
-                   Content="MARATHON SKILLS 2016" />
-            </StackPanel>
-        </Border>
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="2" Width="800">
-            <TextBlock
-                FontSize="12"
-                HorizontalAlignment="Center" 
-                Text="18 дней 8 часов и 17 минут до старта морафона!"
-                Foreground="#FFC9C9C9" 
+                    <Label 
+                        Foreground="#FFFF"
+                        FontWeight="Bold" 
+                        FontSize="25"
+                        VerticalContentAlignment="Center"
+                        Content="MARATHON SKILLS 2016" />
+                </StackPanel>
+            </Border>
+            <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Width="800" Margin="0,424,0,0">
+                <TextBlock
+                    FontSize="12"
+                    HorizontalAlignment="Center" 
+                    Text="18 дней 8 часов и 17 минут до старта морафона!"
+                    Foreground="#FFC9C9C9" 
+                    TextWrapping="Wrap" 
+                    Margin="244,10,246,0"
+                    Width="302"
+                    TextAlignment="Center"/>
+            </Border>
+
+
+            <TextBlock HorizontalAlignment="Left"
+                FontSize="27"                    
+                Width="570" 
+                Foreground="#FF4B4747" 
+                TextAlignment="Center"
+                Margin="113,64,0,0"
+                VerticalAlignment="Top" 
+                Text="BMR калькулятор" Height="46"/>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
                 TextWrapping="Wrap" 
-                Margin="244,10,246,0"
-                Width="302"
-                TextAlignment="Center"/>
-        </Border>
-
-
-        <TextBlock HorizontalAlignment="Center"
-            FontSize="27"                    
-            Width="570" 
-            Foreground="#FF4B4747" 
-            TextAlignment="Center"
-            Margin="115,64,109,0"
-            VerticalAlignment="Top" 
-            Text="BMR калькулятор" Height="46" Grid.RowSpan="2"/>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="268"
-            Foreground="#FF4B4747" 
-            Margin="62,44,464,261" Grid.Row="1"><Run Text="Информация о том что такое BMR и"/><LineBreak/><Run Text="как рассчитываются результаты"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="268"
-            Foreground="#FF4B4747" 
-            Margin="470,49,56,261" Grid.Row="1"><Run Text="Информация о показателях калорий"/><LineBreak/><Run Text="показывается здесь"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="78"
-            Foreground="#FF4B4747" 
-            Margin="62,219,654,116" Grid.Row="1">Рост:</TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="83"
-            Foreground="#FF4B4747" 
-            Margin="62,244,649,95" Grid.Row="1"><Run Text="Вес:"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="77"
-            Foreground="#FF4B4747" 
-            Margin="50,269,667,61" Grid.Row="1"><Run Text="Возраст:"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="12"
-            Width="30"
-            Foreground="#FF4B4747" 
-            Margin="198,269,566,61" Grid.Row="1">лет</TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="12"
-            Width="30"
-            Foreground="#FF4B4747" 
-            Margin="198,244,566,95" Grid.Row="1"><Run Text="кг"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="12"
-            Width="30"
-            Foreground="#FF4B4747" 
-            Margin="198,219,566,116" Grid.Row="1"><Run Text="см"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="85"
-            Foreground="Gray" 
-            Margin="570,108,139,220" Grid.Row="1"><Run Text="Ваш BMR"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="24"
-            Width="85"
-            Foreground="#FF4B4747" 
-            Margin="570,149,139,180" Grid.Row="1"><Run Text="1,670"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="160"
-            Foreground="#FF4B4747" 
-            Margin="538,184,96,121" Grid.Row="1">Ежедневно тратиться<LineBreak/>калорий</TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="93"
-            Foreground="#FF0074FF" 
-            Margin="510,228,191,110" Grid.Row="1"><Run Text="Сидячий:"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="65"
-            Foreground="#FF0074FF" 
-            Margin="608,228,121,110" Grid.Row="1"><Run Text="2,004"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="187"
-            Foreground="#FF20AE09" 
-            Margin="416,254,191,84" Grid.Row="1"><Run Text="Маленькая активность:"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="65"
-            Foreground="#FF20AE09" 
-            Margin="608,254,121,84" Grid.Row="1"><Run Text="2,296"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="168"
-            Foreground="Orange" 
-            Margin="435,282,191,55" Grid.Row="1"><Run Text="Средняя активность:"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="65"
-            Foreground="Orange" 
-            Margin="608,282,121,55" Grid.Row="1"><Run Text="2,589"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="168"
-            Foreground="red" 
-            Margin="435,309,191,29" Grid.Row="1"><Run Text="Сильная активность:"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="65"
-            Foreground="red" 
-            Margin="608,309,121,29" Grid.Row="1"><Run Text="2,881"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="213"
-            Foreground="red" 
-            Margin="390,335,191,3" Grid.Row="1"><Run Text="Максимальная активность:"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="65"
-            Foreground="red" 
-            Margin="608,335,121,3" Grid.Row="1"><Run Text="3,173"/></TextBlock>
+                FontSize="15"
+                Width="268"
+                Foreground="#FF4B4747" 
+                Margin="60,109,0,301"><Run Text="Информация о том что такое BMR и"/><LineBreak/><Run Text="как рассчитываются результаты"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="268"
+                Foreground="#FF4B4747" 
+                Margin="468,114,0,301"><Run Text="Информация о показателях калорий"/><LineBreak/><Run Text="показывается здесь"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="78"
+                Foreground="#FF4B4747" 
+                Margin="60,284,0,156"><Run Text="Рост:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="83"
+                Foreground="#FF4B4747" 
+                Margin="60,309,0,135"><Run Text="Вес:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="77"
+                Foreground="#FF4B4747" 
+                Margin="48,334,0,101"><Run Text="Возраст:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="12"
+                Width="30"
+                Foreground="#FF4B4747" 
+                Margin="196,334,0,101"><Run Text="лет"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="12"
+                Width="30"
+                Foreground="#FF4B4747" 
+                Margin="196,309,0,135"><Run Text="кг"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="12"
+                Width="30"
+                Foreground="#FF4B4747" 
+                Margin="196,284,0,156"><Run Text="см"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="85"
+                Foreground="Gray" 
+                Margin="568,173,0,260"><Run Text="Ваш BMR"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="24"
+                Width="85"
+                Foreground="#FF4B4747" 
+                Margin="568,214,0,220"><Run Text="1,670"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="160"
+                Foreground="#FF4B4747" 
+                Margin="536,249,0,161"><Run Text="Ежедневно тратиться"/><LineBreak/><Run Text="калорий"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="93"
+                Foreground="#FF0074FF" 
+                Margin="508,293,0,150"><Run Text="Сидячий:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="65"
+                Foreground="#FF0074FF" 
+                Margin="606,293,0,150"><Run Text="2,004"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="187"
+                Foreground="#FF20AE09" 
+                Margin="414,319,0,124"><Run Text="Маленькая активность:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="65"
+                Foreground="#FF20AE09" 
+                Margin="606,319,0,124"><Run Text="2,296"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="168"
+                Foreground="Orange" 
+                Margin="433,347,0,95"><Run Text="Средняя активность:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="65"
+                Foreground="Orange" 
+                Margin="606,347,0,95"><Run Text="2,589"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="168"
+                Foreground="red" 
+                Margin="433,374,0,69"><Run Text="Сильная активность:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="65"
+                Foreground="red" 
+                Margin="606,374,0,69"><Run Text="2,881"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="213"
+                Foreground="red" 
+                Margin="388,400,0,43"><Run Text="Максимальная активность:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="65"
+                Foreground="red" 
+                Margin="606,400,0,43"><Run Text="3,173"/></TextBlock>
 
 
 
 
-        <Button BorderBrush="Gray" Margin="62,108,629,165" Grid.Row="1">
-            <Button.Background>
-                <ImageBrush Stretch="None" ImageSource="images/men.png"/>
-            </Button.Background>
-        </Button>
-        <Button BorderBrush="Gray" Margin="187,108,494,165" Grid.Row="1">
-            <Button.Background>
-                <ImageBrush Stretch="None" ImageSource="Images/women.png"/>
-            </Button.Background>
-        </Button>
-        <Button BorderThickness="0" Click="Button_Click" Margin="703,193,56,140" Grid.Row="1">
-            <Button.Background>
-                <ImageBrush Stretch="Fill" ImageSource="Images/warning.png"/>
-            </Button.Background>
-        </Button>
-        <Button Content="Рассчитать" Margin="62,308,630,24" RenderTransformOrigin="0.178,0.385" Grid.Row="1"/>
-        <Button Content="Отмена" Margin="187,309,505,23" RenderTransformOrigin="0.178,0.385" Grid.Row="1"/>
+            <Button BorderBrush="Gray" Margin="62,173,629,205">
+                <Button.Background>
+                    <ImageBrush Stretch="None" ImageSource="images/men.png"/>
+                </Button.Background>
+            </Button>
+            <Button BorderBrush="Gray" Margin="187,173,494,205">
+                <Button.Background>
+                    <ImageBrush Stretch="None" ImageSource="Images/women.png"/>
+                </Button.Background>
+            </Button>
+            <Button BorderThickness="0" Click="Button_Click" Margin="703,258,56,180">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Images/warning.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="Рассчитать" Margin="62,373,630,64" RenderTransformOrigin="0.178,0.385"/>
+            <Button Content="Отмена" Margin="187,374,505,63" RenderTransformOrigin="0.178,0.385"/>
 
 
-        <TextBox HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="66"
-            BorderBrush="Gray"
-            Foreground="Gray" 
-            Margin="132,248,596,87" Grid.Row="1" Height="29">30</TextBox>
-        <TextBox HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="66"
-            BorderBrush="Gray"
-            Foreground="Gray" 
-            Margin="132,219,596,116" Grid.Row="1">180</TextBox>
-        <TextBox HorizontalAlignment="Center"
-            TextAlignment="Center" 
-            TextWrapping="Wrap" 
-            FontSize="15"
-            Width="66"
-            BorderBrush="Gray"
-            Foreground="Gray" 
-            Margin="132,268,596,67" Grid.Row="1" Height="29">70</TextBox>
+            <TextBox HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="66"
+                BorderBrush="Gray"
+                Foreground="Gray" 
+                Margin="130,313,0,122" Height="29" Text="30"/>
+            <TextBox HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="66"
+                BorderBrush="Gray"
+                Foreground="Gray" 
+                Margin="130,284,0,156" Text="180"/>
+            <TextBox HorizontalAlignment="Left"
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                FontSize="15"
+                Width="66"
+                BorderBrush="Gray"
+                Foreground="Gray" 
+                Margin="130,333,0,102" Height="29" Text="70"/>
 
-    </Grid>
+        </Grid>
+    </Viewbox>
 </Window>

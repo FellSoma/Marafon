@@ -6,25 +6,20 @@
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
         Title="Marathon Skills 2016" Height="433" Width="785">
-    <Grid HorizontalAlignment="Center">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="0*"/>
-            <RowDefinition Height="157*"/>
-            <RowDefinition Height="227*"/>
-            <RowDefinition Height="33*"/>
-            <RowDefinition Height="0*"/>
-        </Grid.RowDefinitions>
-        <Border HorizontalAlignment="Center" Background="#FF3E3E3E" Margin="0,0,0,1" Grid.RowSpan="2" Width="785">
+    <Viewbox HorizontalAlignment="Center" Stretch="Fill">
+        <Grid Height="417.04" Width="785">
+            <Border HorizontalAlignment="Center" Background="#FF3E3E3E" Margin="0,0,0,261" Width="785">
 
-            <Label Foreground="#FFFF" FontWeight="Bold" FontSize="25" Margin="242,29,242,84" RenderTransformOrigin="0.297,2.869" Content="MARATHON SKILLS 2016" Width="312" />
-        </Border>
-        <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Москва, Россия      среда 21 октября 2016" Foreground="#FFC9C9C9" TextWrapping="Wrap" Margin="0,86,0,25" Width="164" TextAlignment="Center" FontStyle="Italic" Grid.RowSpan="2"/>
-        <Border Background="#FF3E3E3E" Margin="0,226,0,0" HorizontalAlignment="Center" Grid.RowSpan="2" Grid.Row="2" Width="785">
-            <TextBlock FontSize="12" HorizontalAlignment="Center" Text="18 дней 8 часов и 17 минут до старта морафона!" Foreground="#FFC9C9C9" TextWrapping="Wrap" Margin="244,10,246,0" Width="302" TextAlignment="Center"/>
-        </Border>
-        <Button Content="Я хочу стать бегуном" Margin="297,21,284,160" RenderTransformOrigin="0.178,0.385" Click="IfuRunner" Grid.Row="2"/>
-        <Button Content="Я хочу стать спонсором бегуна" Margin="297,87,284,94" RenderTransformOrigin="0.178,0.385" Click="sponsorRunner" Grid.Row="2"/>
-        <Button Click="info" Content="Я хочу узнать больше о событии" Margin="297,156,284,25" RenderTransformOrigin="0.178,0.385" Grid.Row="2"/>
-        <Button Content="Login" Margin="700,183,10,17" RenderTransformOrigin="0.178,0.385" Grid.Row="2"/>
-    </Grid>
+                <Label Foreground="#FFFF" FontWeight="Bold" FontSize="25" Margin="242,29,242,84" RenderTransformOrigin="0.297,2.869" Content="MARATHON SKILLS 2016" Width="312" />
+            </Border>
+            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Москва, Россия      среда 21 октября 2016" Foreground="#FFC9C9C9" TextWrapping="Wrap" Margin="0,86,0,285" Width="164" TextAlignment="Center" FontStyle="Italic"/>
+            <Border Background="#FF3E3E3E" Margin="0,383,0,0" HorizontalAlignment="Center" Width="785">
+                <TextBlock FontSize="12" HorizontalAlignment="Center" Text="18 дней 8 часов и 17 минут до старта морафона!" Foreground="#FFC9C9C9" TextWrapping="Wrap" Margin="244,10,246,0" Width="302" TextAlignment="Center"/>
+            </Border>
+            <Button Content="Я хочу стать бегуном" Margin="297,178,284,193" RenderTransformOrigin="0.178,0.385" Click="IfuRunner"/>
+            <Button Content="Я хочу стать спонсором бегуна" Margin="297,244,284,127" RenderTransformOrigin="0.178,0.385" Click="sponsorRunner"/>
+            <Button Click="info" Content="Я хочу узнать больше о событии" Margin="297,313,284,58" RenderTransformOrigin="0.178,0.385"/>
+            <Button Content="Login" Margin="700,340,10,50" RenderTransformOrigin="0.178,0.385"/>
+        </Grid>
+    </Viewbox>
 </Window>

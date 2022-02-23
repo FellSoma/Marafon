@@ -6,45 +6,43 @@
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
         Title="MySponsor" Height="434" Width="793">
-    <Grid Margin="0,136,0,0">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="223*"/>
-            <ColumnDefinition Width="173*"/>
-        </Grid.ColumnDefinitions>
-        <Border Background="#FF525252" Margin="0,-135,0,0" Grid.ColumnSpan="2"/>
-        <Border Background="White" Margin="0,-91,0,28" Grid.ColumnSpan="2"/>
-        <Button x:Name="button" Content="Назад" Margin="12,-130,353,379" Click="button_Click"/>
-        <Label Content="MARATHON SKILLS 2016" Margin="117,-130,87,379" FontWeight="Bold" FontSize="18" Foreground="White"/>
-        <Button x:Name="button1" Content="Logout" Margin="256,-130,11,379" Grid.Column="1" Click="button1_Click"/>
-        <Label Content="18 дней 8 часов и 17 минут до старта марафона!" Margin="261,255,245,0" Foreground="White" Grid.ColumnSpan="2"/>
-        <Label Content="Мои спонсоры" Margin="290,-91,338,322" FontSize="22" Grid.ColumnSpan="2" Foreground="#FF686565"/>
-        <Label Content="Здесь показаны все ваши спонсоры в Marathon Skills 2016." Margin="195,-39,245,271" Grid.ColumnSpan="2" Foreground="#FF686565"/>
-        <Label Content="                Наименование&#xD;&#xA; благотворительной организации" Margin="33,0,197,225" Foreground="#FFA5ACAE"/>
-        <Image Source="Images/logo.png" Margin="65,58,271,147"/>
-        <Label Content="Это было бы длинным описанием&#xD;&#xA;благотворительности. Это могло пойти &#xD;&#xA;для нескольких параграфов." Margin="33,129,184,88"/>
-        <Label Content="Это - больше описания здесь, и это - &#xD;&#xA;еще часть описания также." Margin="33,195,184,33"/>
-        <Label Content="Спонсор" Grid.Column="1" Margin="5,10,280,239" Foreground="#FFA5ACAE"/>
-        <Label Content="Взнос" Margin="220,12,52,239" Grid.Column="1" Foreground="#FFA5ACAE"/>
-        <Label Content="Наименование" Grid.Column="1" Margin="5,44,237,207"/>
-        <Label Content="Наименование" Grid.Column="1" Margin="5,60,232,190"/>
-        <Label Content="Наименование" Margin="5,76,232,175" Grid.Column="1"/>
-        <Label Content="Наименование" Margin="5,93,232,156" Grid.Column="1"/>
-        <Label Content="Наименование" Margin="5,108,227,139" Grid.Column="1"/>
-        <Label Content="$50" Grid.Column="1" Margin="220,44,61,205"/>
-        <Label Content="$120" Grid.Column="1" Margin="220,58,61,191"/>
-        <Label Content="$180" Grid.Column="1" Margin="220,74,61,175"/>
-        <Label Content="$30" Grid.Column="1" Margin="220,90,61,159"/>
-        <Label Content="$300" Grid.Column="1" Margin="220,106,61,143"/>
-        <Image Source="Images/Panel.png" Margin="10,129,72,118" Grid.Column="1"/>
-        <Label Content="Всего $680" Grid.Column="1" Margin="176,156,67,81" RenderTransformOrigin="0.5,0.5" FontSize="18" Foreground="#FFA5ACAE">
-            <Label.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleY="-0.546"/>
-                    <RotateTransform/>
-                    <TranslateTransform Y="-0.99"/>
-                </TransformGroup>
-            </Label.RenderTransform>
-        </Label>
-    </Grid>
+    <Viewbox Margin="0,136,0,0" Stretch="Fill">
+        <Grid Height="282.04" Width="793">
+            <Border Background="#FF525252" Margin="0,-135,0,0"/>
+            <Border Background="White" Margin="0,-91,0,33"/>
+            <Button x:Name="button" Content="Назад" Margin="12,-130,699,379" Click="button_Click"/>
+            <Label Content="MARATHON SKILLS 2016" Margin="117,-130,433,379" FontWeight="Bold" FontSize="18" Foreground="White"/>
+            <Button x:Name="button1" Content="Logout" Margin="703,-130,11,379" Click="button1_Click"/>
+            <Label Content="18 дней 8 часов и 17 минут до старта марафона!" Margin="261,255,245,0" Foreground="White"/>
+            <Label Content="Мои спонсоры" Margin="290,-91,338,322" FontSize="22" Foreground="#FF686565"/>
+            <Label Content="Здесь показаны все ваши спонсоры в Marathon Skills 2016." Margin="195,-39,245,271" Foreground="#FF686565"/>
+            <Label Content="                Наименование&#xA; благотворительной организации" Margin="33,0,543,225" Foreground="#FFA5ACAE"/>
+            <Image Source="Images/logo.png" Margin="65,58,617,147"/>
+            <Label Content="Это было бы длинным описанием&#xA;благотворительности. Это могло пойти &#xA;для нескольких параграфов." Margin="33,129,530,88"/>
+            <Label Content="Это - больше описания здесь, и это - &#xA;еще часть описания также." Margin="33,195,530,33"/>
+            <Label Content="Спонсор" Margin="452,10,280,239" Foreground="#FFA5ACAE"/>
+            <Label Content="Взнос" Margin="667,12,52,239" Foreground="#FFA5ACAE"/>
+            <Label Content="Наименование" Margin="452,44,237,207"/>
+            <Label Content="Наименование" Margin="452,60,232,190"/>
+            <Label Content="Наименование" Margin="452,76,232,175"/>
+            <Label Content="Наименование" Margin="452,93,232,156"/>
+            <Label Content="Наименование" Margin="452,108,227,139"/>
+            <Label Content="$50" Margin="667,44,61,205"/>
+            <Label Content="$120" Margin="667,58,61,191"/>
+            <Label Content="$180" Margin="667,74,61,175"/>
+            <Label Content="$30" Margin="667,90,61,159"/>
+            <Label Content="$300" Margin="667,106,61,143"/>
+            <Image Source="Images/Panel.png" Margin="457,129,72,118"/>
+            <Label Content="Всего $680" Margin="623,156,67,81" RenderTransformOrigin="0.5,0.5" FontSize="18" Foreground="#FFA5ACAE">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.546"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.99"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+        </Grid>
+    </Viewbox>
 </Window>

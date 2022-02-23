@@ -11,268 +11,270 @@
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         WindowStyle="ToolWindow">
-    <Grid>
-        <Grid Width="500" Margin="146,46,146,80">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="139"/>
-                <ColumnDefinition Width="105" />
+    <Viewbox Stretch="Fill">
+        <Grid Height="334.04" Width="800">
+            <Grid Width="500" Margin="150,46,150,80">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="139"/>
+                    <ColumnDefinition Width="105" />
 
-                <ColumnDefinition/>
-                <ColumnDefinition Width="156"/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="29*" />
-                <RowDefinition Height="29*"/>
-                <RowDefinition Height="29*"/>
-                <RowDefinition Height="28*"/>
-                <RowDefinition Height="28*"/>
-                <RowDefinition Height="28*"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="156"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="29*" />
+                    <RowDefinition Height="29*"/>
+                    <RowDefinition Height="29*"/>
+                    <RowDefinition Height="28*"/>
+                    <RowDefinition Height="28*"/>
+                    <RowDefinition Height="28*"/>
 
 
-            </Grid.RowDefinitions>
-            <!-- первая сторка-->
-            <Border 
-                        Grid.Row="0"
-                        Grid.Column="0"
-                        Background="Black"
-                        BorderBrush="#FF8EE06F"
-                        BorderThickness="1">
+                </Grid.RowDefinitions>
+                <!-- первая сторка-->
+                <Border 
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Background="Black"
+                    BorderBrush="#FF8EE06F"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Наименование"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FFA0DE87" Margin="9,6,17,6" Width="111" />
-            </Border>
-            <Border 
-                        Grid.Row="0"
-                        Grid.Column="1"
-                        Background="Black"
-                        BorderBrush="#FF8EE06F"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Наименование"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FFA0DE87" Margin="9,6,17,6" Width="111" />
+                </Border>
+                <Border 
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Background="Black"
+                    BorderBrush="#FF8EE06F"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Остаток"                           
-                            HorizontalAlignment="Left"
-                            Margin="4,0,0,0"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FFA0DE87" />
-            </Border>
-            <Border 
-                        Grid.Row="0"
-                        Grid.Column="2"
-                        Background="Black"
-                        BorderBrush="#FF8EE06F"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Остаток"                           
+                        HorizontalAlignment="Left"
+                        Margin="4,0,0,0"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FFA0DE87" />
+                </Border>
+                <Border 
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    Background="Black"
+                    BorderBrush="#FF8EE06F"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Необходимо"                           
-                            HorizontalAlignment="Left"
-                            Margin="4,0,0,0"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FFA0DE87" />
-            </Border>
-            <Border 
-                        Grid.Row="0"
-                        Grid.Column="3"
-                        Background="Black"
-                        BorderBrush="#FF8EE06F"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Необходимо"                           
+                        HorizontalAlignment="Left"
+                        Margin="4,0,0,0"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FFA0DE87" />
+                </Border>
+                <Border 
+                    Grid.Row="0"
+                    Grid.Column="3"
+                    Background="Black"
+                    BorderBrush="#FF8EE06F"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Надо заказать"                           
-                            HorizontalAlignment="Center"
-                            Margin="0,0,0,0"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FFA0DE87" />
-            </Border>
-            <!-- Вторая сторка-->
-            <Border 
-                        Grid.Row="1"
-                        Grid.Column="0"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Надо заказать"                           
+                        HorizontalAlignment="Center"
+                        Margin="0,0,0,0"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FFA0DE87" />
+                </Border>
+                <!-- Вторая сторка-->
+                <Border 
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Номер бегуна"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" Margin="9,6,20,6" Width="108" />
-            </Border>
-            <Border 
-                        Grid.Row="1"
-                        Grid.Column="1"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <Border 
-                        Grid.Row="1"
-                        Grid.Column="2"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <Border 
-                        Grid.Row="1"
-                        Grid.Column="3"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <!-- Третья сторка-->
-            <Border 
-                        Grid.Row="2"
-                        Grid.Column="0"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Номер бегуна"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" Margin="9,6,20,6" Width="108" />
+                </Border>
+                <Border 
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <Border 
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <Border 
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <!-- Третья сторка-->
+                <Border 
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="RFID браслет"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" Margin="9,6,24,6" Width="104" />
-            </Border>
-            <Border 
-                        Grid.Row="2"
-                        Grid.Column="1"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <Border 
-                        Grid.Row="2"
-                        Grid.Column="2"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <Border 
-                        Grid.Row="2"
-                        Grid.Column="3"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <!--Четвёртая строка-->
-            <Border 
-                        Grid.Row="3"
-                        Grid.Column="0"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="RFID браслет"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" Margin="9,6,24,6" Width="104" />
+                </Border>
+                <Border 
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <Border 
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <Border 
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <!--Четвёртая строка-->
+                <Border 
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Бейсболка"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" Margin="9,5,32,5" Width="96" />
-            </Border>
-            <Border 
-                        Grid.Row="3"
-                        Grid.Column="1"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <Border 
-                        Grid.Row="3"
-                        Grid.Column="2"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <Border 
-                        Grid.Row="3"
-                        Grid.Column="3"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <!--Пятоя строчка-->
-            <Border 
-                        Grid.Row="4"
-                        Grid.Column="0"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Бейсболка"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" Margin="9,5,32,5" Width="96" />
+                </Border>
+                <Border 
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <Border 
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <Border 
+                    Grid.Row="3"
+                    Grid.Column="3"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <!--Пятоя строчка-->
+                <Border 
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Бутылка воды"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" Margin="9,5,19,5" Width="109" />
-            </Border>
-            <Border 
-                        Grid.Row="4"
-                        Grid.Column="1"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <Border 
-                        Grid.Row="4"
-                        Grid.Column="2"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <Border 
-                        Grid.Row="4"
-                        Grid.Column="3"
-                        Background="#FFF1E9E9"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <!--Шестая строка-->
-            <Border 
-                        Grid.Row="5"
-                        Grid.Column="0"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1">
+                    <TextBlock                           
+                        Text="Бутылка воды"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" Margin="9,5,19,5" Width="109" />
+                </Border>
+                <Border 
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <Border 
+                    Grid.Row="4"
+                    Grid.Column="2"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <Border 
+                    Grid.Row="4"
+                    Grid.Column="3"
+                    Background="#FFF1E9E9"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <!--Шестая строка-->
+                <Border 
+                    Grid.Row="5"
+                    Grid.Column="0"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1">
 
-                <TextBlock                           
-                            Text="Футболка"                           
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="14"
-                            FontWeight="Bold"
-                            Foreground="#FF5E5E61" Margin="9,5,35,5" Width="93" />
-            </Border>
-            <Border 
-                        Grid.Row="5"
-                        Grid.Column="1"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <Border 
-                        Grid.Row="5"
-                        Grid.Column="2"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
-            <Border 
-                        Grid.Row="5"
-                        Grid.Column="3"
-                        Background="#FFCBCACA"
-                        BorderBrush="#FF555454"
-                        BorderThickness="1"/>
+                    <TextBlock                           
+                        Text="Футболка"                           
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#FF5E5E61" Margin="9,5,35,5" Width="93" />
+                </Border>
+                <Border 
+                    Grid.Row="5"
+                    Grid.Column="1"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <Border 
+                    Grid.Row="5"
+                    Grid.Column="2"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+                <Border 
+                    Grid.Row="5"
+                    Grid.Column="3"
+                    Background="#FFCBCACA"
+                    BorderBrush="#FF555454"
+                    BorderThickness="1"/>
+            </Grid>
+            <TextBlock HorizontalAlignment="Center"
+                FontSize="27"                    
+                Width="570" 
+                Foreground="#FF4B4747" 
+                TextAlignment="Center"
+                Margin="0,10,0,0"
+                VerticalAlignment="Top" 
+                Text="Отчет"/>
+            <Button Content="Печать" Margin="90,280,602,10" RenderTransformOrigin="0.178,0.385"/>
         </Grid>
-        <TextBlock HorizontalAlignment="Center"
-            FontSize="27"                    
-            Width="570" 
-            Foreground="#FF4B4747" 
-            TextAlignment="Center"
-            Margin="111,10,111,0"
-            VerticalAlignment="Top" 
-            Text="Отчет"/>
-        <Button Content="Печать" Margin="90,280,602,10" RenderTransformOrigin="0.178,0.385"/>
-    </Grid>
+    </Viewbox>
 </Window>
