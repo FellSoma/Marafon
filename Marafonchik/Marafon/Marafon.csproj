@@ -58,11 +58,17 @@
     <Compile Include="AddANewUser.xaml.cs">
       <DependentUpon>AddANewUser.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AddEditCharity.xaml.cs">
+      <DependentUpon>AddEditCharity.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AdministratorMenu.xaml.cs">
       <DependentUpon>AdministratorMenu.xaml</DependentUpon>
     </Compile>
     <Compile Include="BMIСalculator.xaml.cs">
       <DependentUpon>BMIСalculator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Certificate preview.xaml.cs">
+      <DependentUpon>Certificate preview.xaml</DependentUpon>
     </Compile>
     <Compile Include="Contacts.xaml.cs">
       <DependentUpon>Contacts.xaml</DependentUpon>
@@ -84,6 +90,9 @@
     </Compile>
     <Compile Include="Info.xaml.cs">
       <DependentUpon>Info.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Manage charities.xaml.cs">
+      <DependentUpon>Manage charities.xaml</DependentUpon>
     </Compile>
     <Compile Include="MapMarafon.xaml.cs">
       <DependentUpon>MapMarafon.xaml</DependentUpon>
@@ -128,11 +137,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="AddEditCharity.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AdministratorMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="BMIСalculator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Certificate preview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -197,6 +214,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Manage charities.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MapMarafon.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -299,6 +320,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\BMI.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Galka.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Knopka.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
