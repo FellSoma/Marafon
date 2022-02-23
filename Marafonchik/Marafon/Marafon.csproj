@@ -55,11 +55,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddANewUser.xaml.cs">
+      <DependentUpon>AddANewUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditCharity.xaml.cs">
+      <DependentUpon>AddEditCharity.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AdministratorMenu.xaml.cs">
       <DependentUpon>AdministratorMenu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BMIСalculator.xaml.cs">
+      <DependentUpon>BMIСalculator.xaml</DependentUpon>
+    </Compile>
     <Compile Include="BMRcalculator.xaml.cs">
       <DependentUpon>BMRcalculator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Certificate preview.xaml.cs">
+      <DependentUpon>Certificate preview.xaml</DependentUpon>
     </Compile>
     <Compile Include="Contacts.xaml.cs">
       <DependentUpon>Contacts.xaml</DependentUpon>
@@ -70,11 +82,20 @@
     <Compile Include="EarlyRace.xaml.cs">
       <DependentUpon>EarlyRace.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EditAUser.xaml.cs">
+      <DependentUpon>EditAUser.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EditRunner.xaml.cs">
       <DependentUpon>EditRunner.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EditRunnerProfile.xaml.cs">
+      <DependentUpon>EditRunnerProfile.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HowMuchMarafon.xaml.cs">
       <DependentUpon>HowMuchMarafon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ImportVolunteers.xaml.cs">
+      <DependentUpon>ImportVolunteers.xaml</DependentUpon>
     </Compile>
     <Compile Include="Info.xaml.cs">
       <DependentUpon>Info.xaml</DependentUpon>
@@ -84,6 +105,9 @@
     </Compile>
     <Compile Include="LvlActivity.xaml.cs">
       <DependentUpon>LvlActivity.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Manage charities.xaml.cs">
+      <DependentUpon>Manage charities.xaml</DependentUpon>
     </Compile>
     <Compile Include="MapMarafon.xaml.cs">
       <DependentUpon>MapMarafon.xaml</DependentUpon>
@@ -109,6 +133,12 @@
     <Compile Include="Regystry.xaml.cs">
       <DependentUpon>Regystry.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RunnerControl.xaml.cs">
+      <DependentUpon>RunnerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunnerManagement.xaml.cs">
+      <DependentUpon>RunnerManagement.xaml</DependentUpon>
+    </Compile>
     <Compile Include="runnerMenu.xaml.cs">
       <DependentUpon>runnerMenu.xaml</DependentUpon>
     </Compile>
@@ -117,6 +147,9 @@
     </Compile>
     <Compile Include="SponsorRunner.xaml.cs">
       <DependentUpon>SponsorRunner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SponsorshipOverview.xaml.cs">
+      <DependentUpon>SponsorshipOverview.xaml</DependentUpon>
     </Compile>
     <Compile Include="SponsorStack.xaml.cs">
       <DependentUpon>SponsorStack.xaml</DependentUpon>
@@ -127,11 +160,33 @@
     <Compile Include="ThxRunner.xaml.cs">
       <DependentUpon>ThxRunner.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserManagement.xaml.cs">
+      <DependentUpon>UserManagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VolunteerManagement.xaml.cs">
+      <DependentUpon>VolunteerManagement.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AddANewUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddEditCharity.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AdministratorMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="BMIСalculator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="BMRcalculator.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Certificate preview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -147,9 +202,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="EditAUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EditRunner.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditRunnerProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="HowMuchMarafon.xaml">
       <SubType>Designer</SubType>
@@ -163,21 +226,25 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ImportVolunteers.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Info.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="inventar.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="LvlActivity.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -200,6 +267,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Manage charities.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MapMarafon.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -217,18 +288,26 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Otchet.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="postinvent.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="RegMarafon.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Regystry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RunnerControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RunnerManagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -244,6 +323,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="SponsorshipOverview.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="SponsorStack.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -255,6 +338,14 @@
     <Page Include="ThxRunner.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserManagement.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="VolunteerManagement.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -299,11 +390,31 @@
     <Resource Include="Images\Panel.PNG" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\BMI2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BMI3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BMI.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Galka.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Knopka.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\women.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Images\net.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\men.png" />
-    <Resource Include="Images\women.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

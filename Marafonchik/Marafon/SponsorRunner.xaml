@@ -9,7 +9,7 @@
         Height="500"
         Width="800" 
         WindowStartupLocation="CenterScreen">
-    
+
     <Grid  HorizontalAlignment="Center">
         <Grid.RowDefinitions>
             <RowDefinition Height="59*"/>
@@ -37,7 +37,7 @@
 
 
         <!--Нижний бордер-->
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="1" Margin="0,374,0,0" Grid.RowSpan="2" Width="807">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
@@ -128,17 +128,17 @@
                                     Margin="0,2"/>
 
                                 <StackPanel Orientation="Horizontal">
-                                    
-                                <TextBox Height="22"
+
+                                    <TextBox Height="22"
                                     HorizontalAlignment="Left" 
                                     Width="40" 
                                     Margin="0,2"/>
-                                    
+
                                     <TextBox Height="22"
                                     HorizontalAlignment="Left" 
                                     Width="80" 
                                     Margin="4,2"/>
-                                    
+
                                 </StackPanel>
 
                                 <TextBox Height="22" 
@@ -150,9 +150,9 @@
 
 
                         </StackPanel>
-                       
 
-                        
+
+
 
                     </StackPanel>
 

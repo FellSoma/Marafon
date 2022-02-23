@@ -6,11 +6,9 @@
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
         Title="AdministratorMenu"
-               Height="500"
-        Width="800" 
-        WindowStyle="None" 
+        Height="450" Width="712"
         WindowStartupLocation="CenterScreen">
-    <Grid Loaded="Grid_Loaded" HorizontalAlignment="Center">
+    <Grid  HorizontalAlignment="Center">
         <Grid.RowDefinitions>
             <RowDefinition Height="59*"/>
             <RowDefinition Height="324*"/>
@@ -21,7 +19,6 @@
         <Border  Background="#FF3E3E3E">
             <StackPanel Orientation="Horizontal">
                 <Button
-                    Click="close_Click"
                     Content="Назад" 
                     Height="25"
                     Width="45"
@@ -33,15 +30,23 @@
                    FontSize="25"
                    VerticalContentAlignment="Center"
                    Content="MARATHON SKILLS 2016" />
+
+                <Button
+                    Content="Logout" 
+                    Height="25"
+                    Width="45"
+                    Margin="360,0,0,0" 
+                    HorizontalAlignment="Right"
+                    />
             </StackPanel>
         </Border>
 
 
         <!--Нижний бордер-->
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="2" Width="790">
             <TextBlock
                 FontSize="12"
-                HorizontalAlignment="Center" 
+                HorizontalAlignment="Left" 
                 Text="18 дней 8 часов и 17 минут до старта морафона!"
                 Foreground="#FFC9C9C9" 
                 TextWrapping="Wrap" 
@@ -72,13 +77,13 @@
                             Height="60"
                             Width="180"
                             Margin="7"
-                            Content="Пользователи"/>
+                            Content="Пользователи" Click="userManagment"/>
                         <Button    
                             Height="60"
                             Width="180"
                             Margin="7"
-                            Content="Благотворительные&#xA;организации"/>
-                        
+                            Content="Благотворительные&#xA;организации" Click="manageCertil"/>
+
 
                     </StackPanel>
 
@@ -88,13 +93,12 @@
                             Height="60"
                             Width="180"
                             Margin="7"
-                            Content="Волонтёры"/>
+                            Content="Волонтёры" Click="ValantersManagment"/>
                         <Button
                             Height="60"
                             Width="180"
                             Margin="7"
-                            Click="inventory_Click"
-                            Content="Инвентарь"/>
+                            Content="Инвентарь" Click="inVernory"/>
 
                     </StackPanel>
 

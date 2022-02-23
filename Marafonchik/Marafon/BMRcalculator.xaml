@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
-         Width="800" 
-        Height="500"
+         Width="783" 
+        Height="482"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen">
 
-    <Grid Margin="0" >
+    <Grid Margin="0,0,-7,2" >
         <Grid.RowDefinitions>
             <RowDefinition Height="59*"/>
             <RowDefinition Height="324*"/>
@@ -34,7 +34,7 @@
                    Content="MARATHON SKILLS 2016" />
             </StackPanel>
         </Border>
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="2" Width="800">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
@@ -211,7 +211,7 @@
                 <ImageBrush Stretch="None" ImageSource="images/men.png"/>
             </Button.Background>
         </Button>
-        <Button BorderBrush="Gray" Margin="187,108,504,165" Grid.Row="1">
+        <Button BorderBrush="Gray" Margin="187,108,494,165" Grid.Row="1">
             <Button.Background>
                 <ImageBrush Stretch="None" ImageSource="Images/women.png"/>
             </Button.Background>

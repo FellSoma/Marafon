@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 I:\OurGits\Marafon\Marafonchik\Marafon\App.xaml
-28-1866771886
+411762729717
 
-33-586680102
+45-698159787
 13-1310406943
-AdministratorMenu.xaml;BMRcalculator.xaml;Contacts.xaml;CordinatorMenu.xaml;EarlyRace.xaml;EditRunner.xaml;HowMuchMarafon.xaml;IfuRunner.xaml;iLogin.xaml;Info.xaml;inventar.xaml;Login.xaml;LvlActivity.xaml;MainWindow.xaml;MapMarafon.xaml;MarafonInfoxaml.xaml;MyResault.xaml;MySponsor.xaml;Otchet.xaml;postinvent.xaml;RegMarafon.xaml;Regystry.xaml;runnerMenu.xaml;Sponsor.xaml;SponsorRunner.xaml;SponsorStack.xaml;THX.xaml;ThxRunner.xaml;
+AddANewUser.xaml;AddEditCharity.xaml;AdministratorMenu.xaml;BMIСalculator.xaml;BMRcalculator.xaml;Certificate preview.xaml;Contacts.xaml;CordinatorMenu.xaml;EarlyRace.xaml;EditAUser.xaml;EditRunner.xaml;EditRunnerProfile.xaml;HowMuchMarafon.xaml;IfuRunner.xaml;iLogin.xaml;ImportVolunteers.xaml;Info.xaml;inventar.xaml;Login.xaml;LvlActivity.xaml;MainWindow.xaml;Manage charities.xaml;MapMarafon.xaml;MarafonInfoxaml.xaml;MyResault.xaml;MySponsor.xaml;Otchet.xaml;postinvent.xaml;RegMarafon.xaml;Regystry.xaml;RunnerControl.xaml;RunnerManagement.xaml;runnerMenu.xaml;Sponsor.xaml;SponsorRunner.xaml;SponsorshipOverview.xaml;SponsorStack.xaml;THX.xaml;ThxRunner.xaml;UserManagement.xaml;VolunteerManagement.xaml;
 
-True
+False
 

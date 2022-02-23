@@ -18,7 +18,7 @@
             VerticalAlignment="Top" Margin="48,348,0,0" Width="202">
 
 
-            <Button Click="ILogin"
+            <Button Click="Registry"
                     FontStyle="Italic"
                     Content="Рассичитать"
                      Margin="6"

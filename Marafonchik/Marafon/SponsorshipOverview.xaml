@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
-        Title="SponsorshipOverview" Height="490.8" Width="800">
+        Title="SponsorshipOverview" Height="477" Width="788">
     <Grid>
-        <Border  Background="#FF3E3E3E" Margin="0,0,1.6,390.6">
+        <Border  Background="#FF3E3E3E" Margin="0,0,2,405">
             <StackPanel Orientation="Horizontal">
                 <Button
                     Content="Назад" 
@@ -31,7 +31,7 @@
                     />
             </StackPanel>
         </Border>
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Margin="0,430,1.6,-0.6" Width="792">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Margin="0,430,0,-1" Width="790">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 

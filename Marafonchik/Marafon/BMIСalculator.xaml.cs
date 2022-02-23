@@ -23,5 +23,12 @@ namespace Marafon
         {
             InitializeComponent();
         }
+
+        private void Registry(object sender, RoutedEventArgs e)
+        {
+            Info w = new Info();
+            w.Show();
+            Close();
+        }
     }
 }

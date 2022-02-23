@@ -37,7 +37,7 @@
 
 
         <!--Нижний бордер-->
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="1" Margin="0,374,0,0" Grid.RowSpan="2" Width="809">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
@@ -120,7 +120,7 @@
                         FontSize="13"
                         HorizontalAlignment="Left"
                         Margin="30,10,0,0"/>
-                   
+
                     <TextBlock
                         Text="- Стенд питья &#xA;- Энергетические &#xA;  батончики&#xA;- Туалет&#xA;- Медецинский&#xA;  пункт  "
                         

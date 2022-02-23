@@ -23,5 +23,19 @@ namespace Marafon
         {
             InitializeComponent();
         }
+
+        private void btBack_Click(object sender, RoutedEventArgs e)
+        {
+            Window w = new CordinatorMenu();
+            w.Show();
+            Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+             Window w = new MainWindow();
+            w.Show();
+            Close();
+        }
     }
 }

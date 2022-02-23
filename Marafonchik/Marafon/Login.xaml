@@ -14,7 +14,7 @@
         </Grid.RowDefinitions>
 
         <!--Вверхний бордер-->
-        
+
         <Border  Background="#FF3E3E3E">
             <StackPanel Orientation="Horizontal">
                 <Button
@@ -32,7 +32,7 @@
             </StackPanel>
         </Border>
         <!--Нижний бордер-->
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="2" Width="800">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
@@ -44,9 +44,9 @@
                 TextAlignment="Center"/>
         </Border>
         <StackPanel Orientation="Vertical" Grid.Row="1">
-            
-            
-         <TextBlock HorizontalAlignment="Center"
+
+
+            <TextBlock HorizontalAlignment="Center"
                     FontSize="27" Text="Форма авторизации"
                     Width="Auto" 
                     Foreground="#FF4B4747"
@@ -65,8 +65,8 @@
             <StackPanel Orientation="Horizontal"
                         HorizontalAlignment="Center"
                         Margin="0,5,0,0">
-               
-           
+
+
                 <StackPanel Orientation="Vertical"                    
                                     Margin="4">
 
@@ -81,7 +81,7 @@
                         Margin="4"/>
 
                 </StackPanel>
-                      
+
                 <StackPanel Orientation="Vertical"
                         HorizontalAlignment="Center"
                         Margin="4">
@@ -95,7 +95,7 @@
                          Margin="4" />
 
                 </StackPanel>
-                
+
             </StackPanel>
             <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Center">

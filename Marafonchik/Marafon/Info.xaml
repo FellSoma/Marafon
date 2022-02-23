@@ -37,7 +37,7 @@
 
 
         <!--Нижний бордер-->
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="1" Margin="0,374,0,0" Grid.RowSpan="2" Width="800">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
@@ -60,7 +60,7 @@
                            TextAlignment="Center"
                            Margin="0,2,0,4"
                            Grid.Row="1" 
-                           Text="Меню бегуна"/>
+                           Text="Подробная иныформация"/>
 
                 <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Center">
@@ -83,7 +83,7 @@
                             Height="60"
                             Width="180"
                             Margin="7"
-                            Content="BMI калькулятор"/>
+                            Content="BMI калькулятор" Click="Button_Click_1"/>
 
                     </StackPanel>
 
@@ -107,8 +107,7 @@
                             Height="60"
                             Width="180"
                             Margin="7"
-                            Click="BMR"
-                            Content="Bmr калькулятор"/>
+                            Content="BMR калькулятор" Click="bmR"/>
 
                     </StackPanel>
 

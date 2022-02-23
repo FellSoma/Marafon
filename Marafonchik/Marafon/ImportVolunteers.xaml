@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
-        Title="ImportVolunteers" Height="450" Width="800">
+        Title="ImportVolunteers" Height="437" Width="795">
     <Grid>
-        <Rectangle Fill="#FF525252" HorizontalAlignment="Center" Height="24" Stroke="#FF525252" VerticalAlignment="Top" Width="794" Margin="0,396,-0.4,0"/>
+        <Rectangle Fill="#FF525252" HorizontalAlignment="Center" Height="42" Stroke="#FF525252" VerticalAlignment="Top" Width="794" Margin="0,386,0,0"/>
         <TextBlock  Margin="223,396,154.6,-7" Foreground="#FFD1D1D1" FontSize="14" FontFamily="Arial"  Text="18 дней 8 часов и17 минут до старта марафона"/>
         <TextBlock          
             Margin="298,63,0,326"

@@ -45,7 +45,7 @@
 
 
         <!--Нижний бордер-->
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="1" Margin="0,374,0,0" Grid.RowSpan="2" Width="805">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
@@ -94,7 +94,7 @@
                             Content="Контакты"/>
 
                     </StackPanel>
-                    
+
                     <StackPanel Orientation="Vertical">
 
                         <Button

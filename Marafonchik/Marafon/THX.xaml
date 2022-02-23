@@ -36,7 +36,7 @@
 
 
         <!--Нижний бордер-->
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="1" Margin="0,374,0,0" Grid.RowSpan="2" Width="814">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
@@ -49,9 +49,9 @@
         </Border>
         <!--Основное тело(body)-->
         <Grid Grid.Row="1">
-            
+
             <StackPanel Orientation="Vertical">
-                
+
                 <TextBlock HorizontalAlignment="Center"
                            FontSize="27"
                            Text="Спасибо за вашу спонсорскую поддежрку!"                    
@@ -78,7 +78,7 @@
                            TextAlignment="Center"
                            Margin="0,20,0,4"
                            Grid.Row="1" />
-                
+
                 <TextBlock HorizontalAlignment="Center"
                            FontSize="27"
                            Text="Фонд кошек"                    
@@ -97,11 +97,11 @@
                            Margin="0"
                            Grid.Row="1" />
 
-               <Button Content="Назад"
+                <Button Content="Назад"
                        HorizontalAlignment="Center"
                        Margin="5"
                        Width="60"/>
-             
+
             </StackPanel>
 
         </Grid>

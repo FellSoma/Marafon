@@ -32,7 +32,7 @@
                    FontSize="25"
                    VerticalContentAlignment="Center"
                    Content="MARATHON SKILLS 2016" />
-                
+
                 <Button
                     Content="Logout" 
                     Height="25"
@@ -45,7 +45,7 @@
 
 
         <!--Нижний бордер-->
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="1" Margin="0,374,0,0" Grid.RowSpan="2" Width="805">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
@@ -78,7 +78,7 @@
                            Grid.Row="1" 
                            Margin="0,12,0,0"
                            Text="Спасибо за вашу регистрацию в качестве бегуна в Marathon Skills 2016!"/>
-                
+
                 <TextBlock HorizontalAlignment="Center"
                            TextAlignment="Center" 
                            TextWrapping="Wrap" 
@@ -88,7 +88,7 @@
                            Grid.Row="1" 
                            Margin="0,12,0,0"
                            Text="С вами свяжутся по поводу оплаты"/>
-              
+
                 <Button Content="ОК"
                        HorizontalAlignment="Center"
                        Margin="30"

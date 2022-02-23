@@ -36,7 +36,7 @@
 
 
         <!--Нижний бордер-->
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="1" Margin="0,374,0,0" Grid.RowSpan="2" Width="805">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
@@ -76,7 +76,7 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                        <!--Левая сторона тела-->
+                    <!--Левая сторона тела-->
                     <StackPanel Grid.Column="0" Orientation="Vertical">
                         <Label Content="Вид марафона"
                                HorizontalAlignment="Center"
@@ -88,17 +88,17 @@
                                   Margin="15,5,0,3"
                                   Foreground="#FF4B4747"
                                   FontSize="14"/>
-                        
+
                         <CheckBox Content=" 21km Полумарофон($75)"
                                   Margin="15,5,0,3"
                                   Foreground="#FF4B4747"
                                   FontSize="14"/>
-                        
+
                         <CheckBox Content=" 5km Малая диистанция($20)"
                                   Margin="15,5,0,3"
                                   Foreground="#FF4B4747"
                                   FontSize="14"/>
-                        
+
                         <Label Content="Детали спонсороства"
                                HorizontalAlignment="Center"
                                FontWeight="Bold"
@@ -108,7 +108,7 @@
                         <StackPanel Orientation="Horizontal"
                                     HorizontalAlignment="Right"
                                     Margin="0,0,15,0">
-                            
+
                             <Label Content="Взнос:"
                                    Margin="4"
                                    HorizontalAlignment="Right"/>
@@ -117,7 +117,7 @@
                                 Height="26"
                                 Width="150"
                                 Margin="4"/>
-                            
+
                             <Button Click="Sponsor"
                                     Height="30"
                                     Width="33"
@@ -128,7 +128,7 @@
                                 Width="30"
                                 Source="Images/WARNING.png"/>
                             </Button>
-                            
+
                         </StackPanel>
 
                         <StackPanel Orientation="Horizontal"
@@ -137,16 +137,16 @@
 
                             <Label Content="Сумма взноса:"
                                    Margin="4"/>
-                            
+
                             <TextBox Height="26"
                                      Width="150"
                                      Margin="4" />
 
                         </StackPanel>
-                        
+
                     </StackPanel>
-                    
-                        <!--Правая сторона тела-->
+
+                    <!--Правая сторона тела-->
                     <StackPanel Orientation="Vertical" Grid.Column="1" >
 
                         <Label Content="Варианты комплексов"
@@ -186,7 +186,7 @@
 
                     </StackPanel>
                 </Grid>
-                
+
                 <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Left"
                             Margin="120,5,0,0">

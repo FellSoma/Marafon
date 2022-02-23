@@ -525,7 +525,7 @@
                     />
             </StackPanel>
         </Border>
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="2" Width="800">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 

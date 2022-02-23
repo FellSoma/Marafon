@@ -37,7 +37,7 @@
 
 
         <!--Нижний бордер-->
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="1" Margin="0,374,0,0" Grid.RowSpan="2" Width="805">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
@@ -65,14 +65,14 @@
                            Text="Меню бегуна"/>
 
                 <StackPanel Orientation="Horizontal">
-                    
-               
+
+
                     <StackPanel Orientation="Vertical"
                             HorizontalAlignment="Left" 
                             Margin="0,10,0,0"
                             Width="317">
 
-                    <Button
+                        <Button
                      Height="150"
                         Width="200"
                         Click="mapMarafon"
@@ -134,9 +134,9 @@
                         <TextBlock
                             Margin="0,10,0,0"
                             Text="Дополнительные сведения. Дополнительные&#xA;сведения. Дополнительные сведения.&#xA;Дополнительные сведения. Дополнительные&#xA;сведения. Дополнительные сведения.&#xA;Дополнительные сведения."/>
-                    
 
-                </StackPanel>
+
+                    </StackPanel>
                 </StackPanel>
             </StackPanel>
 

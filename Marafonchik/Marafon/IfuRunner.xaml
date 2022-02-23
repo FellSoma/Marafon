@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
-        Title="Marathon Skills 2016 – Register as a runner" Height="450" Width="800">
-     
+        Title="Marathon Skills 2016 – Register as a runner" Height="435" Width="774">
+
     <Grid>
         <Border  Background="#FF3E3E3E" Margin="0,0,0,360"/>
         <Border Background="#FF3E3E3E" Margin="0,383,0,0" HorizontalAlignment="Center">
@@ -16,16 +16,16 @@
             Orientation="Vertical"
             HorizontalAlignment="Center"
             VerticalAlignment="Center">
-            
-            
+
+
             <Button Click="ILogin"
                     FontStyle="Italic"
                     Content="Я участвовал ранее"
                      Margin="6"
                     Height="50"
                     Width="200"/>
-            
-        <Button Click="Registry"
+
+            <Button Click="Registry"
                 FontStyle="Italic" 
                 Content="Я новый участник"
                 Margin="6"
@@ -36,5 +36,5 @@
         <Button Content="Login" Margin="700,340,10,50" RenderTransformOrigin="0.178,0.385"/>
         <Label Foreground="#FFFF" FontWeight="Bold" FontSize="25" Margin="93,5,365,360" RenderTransformOrigin="0.297,2.869" Content="MARATHON SKILLS 2016" />
     </Grid>
-   
+
 </Window>

@@ -23,5 +23,12 @@ namespace Marafon
         {
             InitializeComponent();
         }
+
+        private void ILogin(object sender, RoutedEventArgs e)
+        {
+            UserManagement w = new UserManagement();
+            w.Show();
+            Close();
+        }
     }
 }

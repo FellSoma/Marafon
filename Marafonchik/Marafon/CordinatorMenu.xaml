@@ -10,7 +10,7 @@
         <Rectangle Fill="#515151" HorizontalAlignment="Left" Height="45" Stroke="Black" VerticalAlignment="Top" Width="792"/>
         <Button x:Name="CloseButton" Click="CloseButton_Click"  Content="Назад" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="51"/>
         <TextBlock x:Name="Marat" Margin="111,10,0,0" HorizontalAlignment="Left" Text="MARATHON SKILLS 2016"  VerticalAlignment="Top" Foreground="White" FontSize="22" FontWeight="Bold" FontFamily="Arial"/>
-        <StatusBar Background="#515151" Foreground="#FFFF" Margin="0,382,0,0" HorizontalAlignment="Left" Width="706">
+        <StatusBar Background="#515151" Foreground="#FFFF" Margin="0,382,0,0" HorizontalAlignment="Center" Width="712">
             <StatusBarItem HorizontalAlignment="Center" >
                 <TextBlock Text="18 дней 8 часов и 17 минут до старта сарафона" />
             </StatusBarItem>

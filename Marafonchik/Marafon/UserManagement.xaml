@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
-        Title="UserManagement" Height="450" Width="800">
+        Title="UserManagement" Height="436" Width="793">
     <Grid>
         <TextBlock          
                             Margin="258,63,0,326"
@@ -136,10 +136,10 @@
             </Border>
             <Border 
                         Grid.Row="0"
-                        Grid.Column="3"
+                        Grid.Column="2"
                         Background="#FF8F8F8F"
                         BorderBrush="#FF555454"
-                        BorderThickness="1" Margin="0,0,-50,20" Grid.RowSpan="2">
+                        BorderThickness="1" Margin="230,0,-50,0" Grid.ColumnSpan="2">
 
                 <TextBlock                           
                             Text="Роль"                           
@@ -570,7 +570,7 @@
                         Grid.Row="0"
                         Background="#FF8F8F8F"
                         BorderBrush="#FF555454"
-                        BorderThickness="1" Margin="626,268,67.6,132">
+                        BorderThickness="1" Margin="624,268,68,134">
 
             <TextBlock                           
                             Text="   "                           
@@ -581,13 +581,13 @@
                             FontWeight="Bold"
                             Foreground="#FF5E5E61" />
         </Border>
-        <Button Content="Edit" Margin="659,286,94.6,115" Click="Button_Click" />
-        <Button Content="Edit" Margin="659,378,94.6,23" Click="Button_Click" />
-        <Button Content="Edit" Margin="659,360,94.6,42" Click="Button_Click" />
-        <Button Content="Edit" Margin="659,341,94.6,60" Click="Button_Click" />
-        <Button Content="Edit" Margin="659,323,94.6,77" Click="Button_Click" />
+        <Button Content="Edit" Margin="662,285,95,117" Click="Button_Click" />
+        <Button Content="Edit" Margin="662,377,95,25" Click="Button_Click" />
+        <Button Content="Edit" Margin="662,358,95,45" Click="Button_Click" />
+        <Button Content="Edit" Margin="662,340,95,62" Click="Button_Click" />
+        <Button Content="Edit" Margin="662,322,95,79" Click="Button_Click" />
 
-        <Button Content="Edit" Margin="659,305,94.6,97" Click="Button_Click" />
+        <Button Content="Edit" Margin="662,304,95,99" Click="Button_Click" />
         <Rectangle Fill="#FF525252" HorizontalAlignment="Center" Height="58" Stroke="#FF525252" VerticalAlignment="Top" Width="792" Margin="0,0,1.6,0"/>
         <TextBlock HorizontalAlignment="Left" Margin="99,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="284" Foreground="White" FontSize="22" FontFamily="Arial"><Run Text="MARATHON SKILLS"/><Run Text=" 2022"/></TextBlock>
         <Button x:Name="btBack" Content="Назад"  Margin="10,5,713.2,377.2" Background="#FFCCCCCC" FontSize="14" FontFamily="Arial" Click="btBack_Click"/>

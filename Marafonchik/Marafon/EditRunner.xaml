@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
-        Title="EditRunner" Height="485.2" Width="702.8">
+        Title="Marathon Skills 2016 – Edit runner profile" Height="485.2" Width="702.8">
     <Grid>
         <Rectangle Fill="#515151" HorizontalAlignment="Left" Height="45" Stroke="Black" VerticalAlignment="Top" Width="792"/>
         <Button Content="Назад" x:Name="CloseButton"  HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="51" Click="CloseButton_Click"/>
         <TextBlock x:Name="Marat" Margin="111,10,0,0" HorizontalAlignment="Left" Text="MARATHON SKILLS 2016"  VerticalAlignment="Top" Foreground="White" FontSize="22" FontWeight="Bold" FontFamily="Arial"/>
         <TextBlock Text="Редактирование профиля" Margin="74,59,0,0" Foreground="#FF4B4B4B" FontSize="18" RenderTransformOrigin="0.562,0.507" HorizontalAlignment="Left" Width="212" Height="31" VerticalAlignment="Top"/>
-        <StatusBar Background="#515151" Foreground="#FFFF" Margin="0,418,-10,0.2" HorizontalAlignment="Left" Width="706">
+        <StatusBar Background="#515151" Foreground="#FFFF" Margin="0,418,0,0" HorizontalAlignment="Center" Width="703">
             <StatusBarItem HorizontalAlignment="Center" >
                 <TextBlock Text="18 дней 8 часов и 17 минут до старта сарафона" />
             </StatusBarItem>
@@ -56,13 +56,20 @@
         <TextBlock Margin="364,264,0,109"
             Text="Оставьте эти поля, незаполненными,
                     если вы не хотите изменять пароль." FontSize="14"
-            TextWrapping="Wrap" TextAlignment="Left" Foreground="#FF595555" HorizontalAlignment="Left" Width="264"/>
+            TextWrapping="Wrap" TextAlignment="Left" Foreground="#FF595555" HorizontalAlignment="Left" Width="264" FontStyle="Italic"/>
         <TextBlock HorizontalAlignment="Left" Margin="390,310,0,0" TextWrapping="Wrap" Text="Пароль:" VerticalAlignment="Top" Height="21" Width="46" RenderTransformOrigin="0.764,0.581"/>
         <TextBox HorizontalAlignment="Left"  Height="21" Margin="458,310,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="170"/>
         <TextBlock HorizontalAlignment="Left" Margin="330,345,0,0" TextWrapping="Wrap" Text="Повторите пароль:" VerticalAlignment="Top" Height="20" Width="107"/>
         <TextBox HorizontalAlignment="Left"  Height="21" Margin="458,345,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="170"/>
         <Button x:Name="SaveButton" Click="SaveButton_Click" Content="Сохранить" HorizontalAlignment="Left" Margin="261,381,0,0" VerticalAlignment="Top" Width="85" Height="21"/>
         <Button x:Name="CloseButton_Copy" Click="CloseButton_Click" Content="Отмена" HorizontalAlignment="Left" Margin="373,381,0,0" VerticalAlignment="Top" Width="85" Height="21"/>
-
+        <TextBlock 
+            Text="Регистрационный статус"
+            Margin="74,274,447,140" 
+            FontSize="14"/>
+        <ComboBox HorizontalAlignment="Left" Margin="74,314,0,0" VerticalAlignment="Top" Width="174">
+            <TextBlock><Run Text="Оплата подтверждена"/></TextBlock>
+            <TextBlock><Run Text="Оплата не подтверждена"/></TextBlock>
+        </ComboBox>
     </Grid>
 </Window>

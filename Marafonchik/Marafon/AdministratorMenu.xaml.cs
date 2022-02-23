@@ -24,21 +24,28 @@ namespace Marafon
             InitializeComponent();
         }
 
-        private void inventory_Click(object sender, RoutedEventArgs e)
+        private void userManagment(object sender, RoutedEventArgs e)
         {
-            inventar inv = new inventar();
-            inv.Show();
-            Close();
+            UserManagement w = new UserManagement();
+            w.Show();
         }
 
-        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        private void ValantersManagment(object sender, RoutedEventArgs e)
         {
-
+            VolunteerManagement w = new VolunteerManagement();
+            w.Show();
         }
 
-        private void close_Click(object sender, RoutedEventArgs e)
+        private void manageCertil(object sender, RoutedEventArgs e)
         {
+            Manage_charities w = new Manage_charities();
+            w.Show();
+        }
 
+        private void inVernory(object sender, RoutedEventArgs e)
+        {
+            inventar w = new inventar();
+            w.Show();
         }
     }
 }

@@ -53,10 +53,16 @@ namespace Marafon
             w.Show(); 
         }
 
-        private void BMR(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            BMRcalculator bMRcalculator = new BMRcalculator();
-            bMRcalculator.Show();
+            BMIСalculator w = new BMIСalculator();
+            w.Show();
+        }
+
+        private void bmR(object sender, RoutedEventArgs e)
+        {
+            BMRcalculator w = new BMRcalculator();
+            w.Show();
         }
     }
 }

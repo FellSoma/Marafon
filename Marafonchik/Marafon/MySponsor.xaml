@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
-        Title="MySponsor" Height="450" Width="800">
+        Title="MySponsor" Height="434" Width="793">
     <Grid Margin="0,136,0,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="223*"/>

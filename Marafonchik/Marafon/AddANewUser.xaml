@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:Marafon"
         mc:Ignorable="d"
         Title="Marathon Skills 2016 – AddANewUser" Height="450" Width="800">
-    <Grid Margin="0,0,-8,-21">
+    <Grid Margin="0,0,0,3">
         <Border  Background="#FF3E3E3E" Margin="0,0,0,379"/>
-        <Border Background="#FF3E3E3E" Margin="0,400,0,0" HorizontalAlignment="Center" Width="824">
+        <Border Background="#FF3E3E3E" Margin="0,400,0,-10" HorizontalAlignment="Center" Width="824">
             <TextBlock FontSize="12" HorizontalAlignment="Center" Text="18 дней 8 часов и 17 минут до старта морафона!" Foreground="#FFC9C9C9" TextWrapping="Wrap" Margin="244,10,246,0" Width="302" TextAlignment="Center"/>
         </Border>
         <StackPanel
@@ -37,7 +37,7 @@
         <Button Content="Login" Margin="700,10,10,397" RenderTransformOrigin="0.178,0.385"/>
 
         <Label Foreground="#FFFF" FontWeight="Bold" FontSize="25" Margin="93,5,365,360" RenderTransformOrigin="0.297,2.869" Content="MARATHON SKILLS 2016" />
-        <Label Foreground="#FF636363" FontWeight="Bold" FontSize="25" Margin="189,55,230,335" RenderTransformOrigin="0.297,2.869" Content="Добавление нового пользователя" />
+        <Label Foreground="#FF636363" FontWeight="Bold" FontSize="25" Margin="189,55,178,335" RenderTransformOrigin="0.297,2.869" Content="Добавление нового пользователя" />
 
         <TextBlock Foreground="#FF464545" Text="Email:" Margin="72,141,687,269" FontSize="14"/>
         <TextBlock Foreground="#FF464545" Text="имя:" Margin="80,170,688,241" FontSize="14"/>

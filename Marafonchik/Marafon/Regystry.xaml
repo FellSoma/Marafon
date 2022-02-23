@@ -16,8 +16,8 @@
             <RowDefinition Height="324*"/>
             <RowDefinition Height="36*"/>
         </Grid.RowDefinitions>
-        
-      <!--Вверхний бордер-->
+
+        <!--Вверхний бордер-->
         <Border  Background="#FF3E3E3E">
             <StackPanel Orientation="Horizontal">
                 <Button
@@ -26,8 +26,8 @@
                     Height="25"
                     Width="45"
                     Margin="10" />
-                
-               <Label 
+
+                <Label 
                    Foreground="#FFFF"
                    FontWeight="Bold" 
                    FontSize="25"
@@ -35,10 +35,10 @@
                    Content="MARATHON SKILLS 2016" />
             </StackPanel>
         </Border>
-        
-        
+
+
         <!--Нижний бордер-->
-        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="3">
+        <Border  Background="#FF3E3E3E" HorizontalAlignment="Center" Grid.Row="1" Margin="0,387,0,0" Grid.RowSpan="2" Width="809">
             <TextBlock
                 FontSize="12"
                 HorizontalAlignment="Center" 
@@ -197,10 +197,10 @@
                             Margin="5"/>
 
                 </StackPanel>
-                
+
             </StackPanel>
-            
+
         </Grid>
-        
+
     </Grid>
 </Window>

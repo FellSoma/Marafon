@@ -148,7 +148,6 @@ H:\Рабочий стол\3№курс\ТРПО\Marafonchik\Marafon\obj\Debug\M
 I:\OurGits\Marafon\Marafonchik\Marafon\bin\Debug\Marafon.exe.config
 I:\OurGits\Marafon\Marafonchik\Marafon\bin\Debug\Marafon.exe
 I:\OurGits\Marafon\Marafonchik\Marafon\bin\Debug\Marafon.pdb
-I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.csprojAssemblyReference.cache
 I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\AdministratorMenu.g.cs
 I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Contacts.g.cs
 I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\CordinatorMenu.g.cs
@@ -237,3 +236,77 @@ C:\Users\nfeli\OneDrive\Рабочий стол\Marafon-d5a461054d132a3515885e1e
 C:\Users\nfeli\OneDrive\Рабочий стол\Marafon-d5a461054d132a3515885e1e6960f67501bd01aa\Marafonchik\Marafon\obj\Debug\Marafon_MarkupCompile.lref
 C:\Users\nfeli\OneDrive\Рабочий стол\Marafon-d5a461054d132a3515885e1e6960f67501bd01aa\Marafonchik\Marafon\obj\Debug\Marafon.exe
 C:\Users\nfeli\OneDrive\Рабочий стол\Marafon-d5a461054d132a3515885e1e6960f67501bd01aa\Marafonchik\Marafon\obj\Debug\Marafon.pdb
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.csprojAssemblyReference.cache
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\AddANewUser.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\AddEditCharity.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\AdministratorMenu.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\BMIСalculator.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\Certificate preview.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\Contacts.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\CordinatorMenu.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\EarlyRace.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\EditAUser.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\EditRunner.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\HowMuchMarafon.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\IfuRunner.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\iLogin.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\Info.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\Login.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\MainWindow.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\Manage charities.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\MapMarafon.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\MarafonInfoxaml.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\MyResault.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\MySponsor.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\RegMarafon.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\Regystry.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\RunnerManagement.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\runnerMenu.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\Sponsor.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\SponsorRunner.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\SponsorStack.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\THX.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\ThxRunner.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\App.g.cs
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\Marafon_MarkupCompile.cache
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\Marafon_MarkupCompile.lref
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.exe
+C:\GitProject\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.pdb
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.csproj.AssemblyReference.cache
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Marafon.csproj.SuggestedBindingRedirects.cache
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\AddANewUser.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\AddEditCharity.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\BMIСalculator.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\BMRcalculator.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Certificate preview.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\EditAUser.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\EditRunnerProfile.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\ImportVolunteers.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\inventar.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\LvlActivity.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Manage charities.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Otchet.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\postinvent.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\RunnerControl.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\RunnerManagement.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\SponsorshipOverview.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\UserManagement.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\VolunteerManagement.g.cs
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\AddANewUser.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\AddEditCharity.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\BMIСalculator.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Certificate preview.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\EditAUser.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Manage charities.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\RunnerManagement.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\BMRcalculator.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\EditRunnerProfile.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\ImportVolunteers.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\inventar.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\LvlActivity.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\Otchet.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\postinvent.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\RunnerControl.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\SponsorshipOverview.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\UserManagement.baml
+I:\OurGits\Marafon\Marafonchik\Marafon\obj\Debug\VolunteerManagement.baml
